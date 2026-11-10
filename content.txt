@@ -1,0 +1,976 @@
+SADSERVERS.COM - PAGE CONTENT (TEXT AS PUBLISHED, WITH PAGE STRUCTURE)
+Captured: 2026-11-10 | Site build stamp: 2026-11-04 22:58 UTC - 2f96d6b
+Notes:
+ - Text is copied from the pages as they appeared. Section labels in [BRACKETS] describe structure and are not site text.
+ - The header navigation and footer are identical on every page and are listed once below.
+ - FAQ answers sit behind each question and were not expanded; the questions are listed in full.
+ - The blog post bodies were not opened; the index excerpts are included.
+ - Not captured: logged-in Dashboard, scenario detail pages, per-technology Lab pages, other docs sub-pages, Privacy Policy, Terms of Service.
+
+======================================================================
+GLOBAL HEADER (ALL PAGES)
+======================================================================
+SadServers | Scenarios | Labs | Dashboard | Solutions | Ranking | Newsletter | FAQ | Documentation | Blog | Pricing | Gift | About | Log In - Sign Up
+
+======================================================================
+GLOBAL FOOTER (ALL PAGES)
+======================================================================
+SadServers
+Real-world Linux and DevOps scenarios for hands-on learning and technical assessment.
+Product: Scenarios | For Individuals | For Businesses | Pricing
+Resources: FAQ | Blog | Newsletter
+Company: About Us | Support | Privacy Policy | Terms of Service | Contact
+Connect With Us: info@sadservers.com (plus X/Twitter, Bluesky, Mastodon, GitHub, LinkedIn icons)
+Made in Canada
+Updated: 2026-11-04 22:58 UTC - 2f96d6b
+
+
+######################################################################
+PAGE 1: HOME   https://sadservers.com/
+Title: SadServers: Linux, DevOps & SRE Labs | Interview & Hiring Assessment
+######################################################################
+[HERO]
+Hands-On Linux & DevOps
+Real Challenges. Real Infra. Real Skills.
+Master Linux & DevOps troubleshooting on live servers.
+Fun, real-world challenges for engineers and powerful assessments for hiring teams.
+"Like LeetCode for Linux and DevOps"
+[CALL TO ACTION]
+Try SadServers instantly for free
+No sign-up required
+[Button] Show Me Sad Servers
+[SOCIAL PROOF]
+Trusted & loved by thousands of engineers like you!
+
+
+######################################################################
+PAGE 2: SCENARIOS   https://sadservers.com/scenarios
+Title: SadServers: Linux, DevOps & SRE Labs | Interview & Hiring Assessment
+######################################################################
+[BANNER]
+Check out our new interface!
+(Beta for registered users; some features still in progress)
+[HEADING] SadServers Linux & DevOps Troubleshooting Scenarios
+[Buttons] Feedback | New Scenario Notification
+[Search box]
+[CATEGORY CARDS (carousel)]
+Linux & Bash: Linux commands, Bash scripting; Systemd; Networking, DNS; Storage; SSH, Firewall; Libraries; Cron and more...
+Web Servers: Nginx; Apache; HAProxy; Caddy; Gunicorn; uWSGI; HTTPS/TLS
+Databases: PostgreSQL; MySQL; SQLite; Redis; ClickHouse; MongoDB; etcd
+(Further cards, labelled in the page headings: Data Processing, Docker, Kubernetes, Infrastructure As Code, Observability, Tooling / Applications, Hacking, Languages)
+[TAG FILTERS]
+Packages, advent2025, ai, ansible, apache, aws, cli, bash, c, caddy, clickhouse, cron, csv, data processing, disk volumes, dns, docker, elk, envoy, etcd, financial, finops, ftp, git, gitea, golang, gunicorn, hack, haproxy, harbor, hashicorp vault, helm, java, jenkins, json, kubernetes, linux-other, mongodb, mysql, nginx, node.js, php, podman, postgres, prometheus, python, rabbitmq, redis, sql, sqlite, ssh, ssl, supervisord, systemd, terraform, traefik
+[BADGE FILTERS] realistic / interviews | new | pro | business
+[TABLES] Columns: # | Name | Time | Type. Each row has Info and Run buttons.
+
+--- EASY (33) ---
+1  "Saint John": what is writing to this log file?   10 m  Fix  No Registration
+2  "Saskatoon": counting IPs.   15 m  Do
+3  "The Command Line Murders"   20 m  Do  No Registration
+4  "Taipei": Come a-knocking   15 m  Hack
+5  "Resumable Server": Linux Upskill Challenge   30 m  Do
+6  "Lhasa": Easy Math   15 m  Do
+7  "Bucharest": Connecting to Postgres   15 m  Fix
+8  "Bilbao": Basic Kubernetes Problems   10 m  Fix
+9  "Apia": Needle in a Haystack   40 m  Do  Pro
+10 "Gitega": Find the Bad Git Commit   30 m  Do  Pro
+11 "Minneapolis": Break a CSV file   10 m  Do
+12 "Saint Paul": Merge Many CSVs files   15 m  Do
+13 "Bata": Find in /proc   10 m  Do
+14 "Geneva": Renew an SSL Certificate   10 m  Fix
+15 Linux Server Review - Guided Learning   30 m  Do
+16 "Tokamachi": Troubleshooting a Named Pipe   15 m  Fix
+17 "Yokohama": Linux Users Working Together   30 m  Fix  Pro
+18 "Fukuoka": Forbidden Association   30 m  Fix  Pro
+19 "Kampot": A New Port   10 m  Do
+20 "Rio de Janeiro": Do we have another option?   30 m  Fix  Pro
+21 "Nuuk": More SSH Troubles   20 m  Fix  Pro
+22 "Cairo": Time for a Timer   15 m  Fix
+23 "Alexandria": The Vanishing Backups   10 m  Fix
+24 "Kortenberg": Can't touch this!   30 m  Fix  Pro
+25 "Hamburg": Find the AWS EC2 volume   60 m  Do  Pro
+26 "Valladolid": Cleaner not cleaning   20 m  Fix
+27 "Porto": Port audit without net tools   15 m  Do
+28 "Edinburgh": FTP catalog sync failure   10 m  Fix
+29 "Bologna": counting ELB 5xx errors   30 m  Do  Pro
+30 "Genova": cgroups problem   15 m  Fix
+31 "Bergen": Port already in use   20 m  Fix
+32 "Nara": No ls on this system   20 m  Do
+33 "Istanbul": Delete unattached AWS EBS volumes   15 m  Do
+
+--- MEDIUM (83) ---
+1  "Manhattan": can't write data into database.   20 m  Fix  No Registration
+2  "Tokyo": can't serve web file   15 m  Fix
+3  "Cape Town": Borked Nginx   15 m  Fix
+4  "Salta": Docker container won't start.   15 m  Fix
+5  "Venice": Am I in a container?   15 m  Do
+6  "Oaxaca": Close an Open File   15 m  Fix
+7  "Melbourne": WSGI with Gunicorn   40 m  Fix  Pro
+8  "Lisbon": etcd SSL cert troubles   20 m  Fix
+9  "Kihei": Surely Not Another Disk Space Scenario   30 m  Fix
+10 "Unimak Island": Fun with Mr Jason   30 m  Do  Pro
+11 "Ivujivik": Parlez-vous Francais?   40 m  Do  Pro
+12 "Paris": Where is my webserver?   15 m  Hack
+13 "Buenos Aires": Kubernetes Pod Crashing   20 m  Fix
+14 "Tarifa": Between Two Seas   40 m  Fix  Pro
+15 "Marrakech": Word Histogram   20 m  Do
+16 "Rosario": Restore a MySQL database   15 m  Fix
+17 "Abaokoro": Restore MySQL Databases Spooked by a Ghost   40 m  Fix  Pro
+18 "Poznan": Helm Chart Issue in Kubernetes   30 m  Fix  Pro
+19 "Manado": How much do you press?   60 m  Do  Pro
+20 "Warsaw": Prometheus can't scrape the webserver   60 m  Fix  Pro
+21 "Moyogalpa": Security Snag. The Trials of Mary and John   30 m  Fix
+22 "Helsingor": The first walls of postgres physical replication   20 m  Fix
+23 "Bekasi": Supervisor is still around   40 m  Fix  Pro
+24 "Depok": Nginx with Brotli   30 m  Fix  Pro
+25 "Tukaani": XZ LZMA Library Compromised   30 m  Fix  Pro
+26 "Atrani": Modify a SQlite3 Database   30 m  Fix  Pro
+27 "Nerdearla Buenos Aires": Troubleshoot "A" no se conecta con "B"   30 m  Fix
+28 "Minneapolis with a Vengeance": Break a CSV file   20 m  Do
+29 "Hanoi": Find the Multitasking Users   30 m  Do  Pro
+30 "Bengaluru": Kubernetes StatefulSet least known characteristic   15 m  Fix
+31 "Constanta": Jumping Frog   20 m  Hack
+32 "Bharuch": Lost in Translation   40 m  Fix  Pro
+33 "Quito": Control One Container from Another   20 m  Do
+34 "Bangalore": Envoy Panics   15 m  Fix
+35 "Budapest": User Creation   20 m  Do
+36 "Bizerte": The Slow Application   15 m  Fix
+37 "Ruaka": Kubernetes pod in distress   30 m  Fix  Pro
+38 "Campina Grande": Give me my cert, Vault   30 m  Fix  Pro
+39 "Kampala": Strange Script Error   15 m  Fix
+40 "Bondo": Split my pile!   20 m  Fix
+41 "Atlantis": Not found   30 m  Fix  Pro
+42 "Kilifi": Speculative Misallocation!   20 m  Fix
+43 "Solanea": ClickHouse mad house   40 m  Do  Pro
+44 "Tunis": Redis Replication Problem   40 m  Fix  Pro
+45 "Toulon": Denied Lamp   30 m  Fix  Business
+46 "Bermuda": Command not found   20 m  Fix  Business
+47 "Auderghem": Containers miscommunication   30 m  Fix  Pro
+48 "Marseille": Rocky security   30 m  Fix  Pro
+49 "Woluwe": Too many images   30 m  Fix  Pro
+50 "La Rinconada": Elevating privileges   15 m  Hack
+51 "Annapurna": High privileges   20 m  Hack
+52 "Podgorica": Docker to Podman migration   40 m  Do  Pro
+53 "Torino": Optimize grande Docker image   30 m  Do  Pro
+54 "Socorro, NM": Optimize Podman image   30 m  Do  Pro
+55 "Sume": Tied in a Knot   20 m  Fix
+56 "San Juan": mucho Traefik   20 m  Fix
+57 "Suzhou": MongoDB replicas!   20 m  Fix
+58 "Amsterdam": Cron Hijack   15 m  Hack
+59 "Lyon": Migrate Ingress-NGINX to Traefik   40 m  Do  Pro
+60 "Stockholm": DNS health check issue   20 m  Fix  Pro
+61 "Cordoba": df is lying (or is it du?)   10 m  Fix
+62 "Tallinn": BuildKit & Docker build mismatch   30 m  Fix  Pro
+63 "Verona": Apache Portal Won't Open   15 m  Fix
+64 "Modena": Ansible Deploy Won't Publish   30 m  Fix  Pro
+65 "Parma": Debugging Terraform Issues   20 m  Fix
+66 "Montevideo": restore test snapshot would clobber production   50 m  Fix  Pro
+67 "Ravenna": Logs Missing in ELK Pipeline   30 m  Fix  Pro
+68 "Philadelphia": htop metrics disagree   20 m  Fix
+69 "Luxor": PostgreSQL analytics queries crawl   20 m  Fix
+70 "Banha": Intermittent 504 Gateway Time-Out errors   30 m  Fix  Pro
+71 "Aswan": K8s Service Connectivity Failure   30 m  Fix  Pro
+72 "Nairn": Phantom Gitea Deploy   20 m  Fix
+73 "Vienna": The Vanishing Process   15 m  Fix
+74 "Hangzhou": The web server one-second delay that never happens   40 m  Fix  Pro
+75 "Spa": The Docker Compose healthcheck that does not heal   30 m  Fix  Pro
+76 "Kyoto": The Gion ticket API will not start   20 m  Fix
+77 "Dakar": The half-installed package   10 m  Fix
+78 "Salzburg": The TLS key that still matches   20 m  Fix
+79 "Auckland": S3 delete & archive old backups   20 m  Do
+80 "Trade": FIX drop reconciliation   20 m  Fix
+81 "Flip": algo symbol flips   25 m  Fix
+82 "Cork": The catalog won't open   20 m  Fix  New
+83 "Bournemouth": Same job, three shells   20 m  Do  New
+
+--- HARD (22) ---
+1  "Jakarta": it's always DNS.   20 m  Fix  No Registration
+2  "Bern": Docker web container can't connect to db container.   20 m  Fix
+3  "Singara": Docker and Kubernetes web app not working.   20 m  Fix
+4  "Hong-Kong": can't write data into database.   40 m  Fix  Pro
+5  "Pokhara": SSH and other sshenanigans   60 m  Fix  Pro
+6  "Roseau": Hack a Web Server   30 m  Hack
+7  "Belo-Horizonte": A Java Enigma   40 m  Fix  Pro
+8  "Chennai": Pull a Rabbit from a Hat   60 m  Fix  Pro
+9  "Monaco": Disappearing Trick   30 m  Hack
+10 "Florence": Database Migration Hell   60 m  Fix  Pro
+11 "Zaragoza": Test changing critical files   40 m  Do  Pro
+12 "Amygdala": Do you have enough insight to see the secrets?   40 m  Fix  Pro
+13 "Tigoni": Patch and Pray!   20 m  Fix
+14 "Cabedelo": Harbor full of issues   40 m  Fix  Pro
+15 "Karakorum": WTFIT - What The Fun Is This?   40 m  Fix  Pro
+16 "Madrid": exploiting capabilities   40 m  Hack  Pro
+17 "London": Ollama LLM troubles   40 m  Fix  Pro
+18 "Anatolia": compromised server   40 m  Fix  Pro
+19 "Sapporo": ephemeral tokens   40 m  Fix  Pro
+20 "Cadiz": Cut the live wires   40 m  Fix  Pro
+21 "Pos": position manager down + reconcile   60 m  Fix  Pro
+22 "Dublin": registration queue overload (HTTP 429)   40 m  Fix  Pro  New
+
+--- KUBERNETES PLAYGROUNDS (2) ---
+1  K8s Playground - Free   20 m  Playground
+2  K8s Playground - Pro   60 m  Playground  Pro
+
+[Buttons at bottom] Feedback | New Scenario Notification
+
+(Diacritics in a few names, e.g. Poznan, Helsingor, Sume, Cordoba, Francais, were simplified in this text file.)
+
+
+######################################################################
+PAGE 3: LABS   https://sadservers.com/labs/
+Title: Technology Labs | SadServers Hands-On Practice
+######################################################################
+[EYEBROW] SADSERVERS LABS
+[H1] Learn by Technology
+Guides, troubleshooting tips, cheatsheets, and hands-on scenarios to level-up or start your DevOps / SRE career.
+
+[H2] Linux & Bash
+ Bash - Shell, scripts, pipelines
+ Cron - Scheduled jobs, crontab, logs
+ Disk volumes - Mounts, LVM, fstab, space
+ DNS - Resolution, records, resolv.conf
+ SSH - Keys, sshd, scp, bastions
+ Supervisord - Process supervisor (legacy)
+ systemd - Units, services, timers, journal
+[H2] Web Servers
+ Apache - httpd, vhosts, modules, logs
+ Caddy - Reverse proxy, TLS, Caddyfile
+ Nginx - Server blocks, proxy, upstreams
+ HAProxy - Load balancing, ACLs, health checks
+ Gunicorn - WSGI workers, Django, Flask
+ SSL / TLS - Certs, openssl, Let's Encrypt
+ Traefik - Dynamic proxy, Docker, K8s
+[H2] Databases
+ ClickHouse - OLAP, merges, replication
+ Postgres - SQL, psql, locks, vacuum
+ MySQL - MariaDB, InnoDB, replication
+ SQLite - Embedded DB, WAL, Litestream
+ Redis - Cache, pub/sub, persistence, replication
+ MongoDB - Documents, replica sets, indexes
+ etcd - K8s state store, Raft, snapshots
+[H2] Data Processing
+ Data processing - JSON, CSV, ETL, batch vs stream
+[H2] Docker
+ Docker - Images, containers, Compose, networks
+ Podman - Daemonless, rootless, pods, Quadlet
+[H2] Kubernetes
+ Kubernetes - Pods, kubectl, RBAC, krew plugins
+ Helm - Charts, releases, values, rollback
+[H2] CI/CD
+ Jenkins - Pipelines, agents, CI/CD automation
+ GitHub Actions - Workflows, runners, YAML pipelines
+ Gitea - Self-hosted Git, Actions, runners
+[H2] Infrastructure As Code
+ Ansible - Playbooks, inventory, roles, modules
+ Terraform - HCL, state, plan/apply, modules
+[H2] Observability
+ ELK Stack - Elasticsearch, Logstash, Filebeat
+ Prometheus - Metrics, PromQL, Grafana dashboards
+[H2] Tooling / Applications
+ Git - Clone, branch, merge, remotes
+ FTP - vsftpd, PASV, legacy B2B feeds
+ RabbitMQ - RMQ, dashboard, queues, consumers
+ Envoy - Proxy, xDS, admin API, mesh
+ HashiCorp Vault - Secrets, seal/unseal, policies
+ Harbor - Registry, scan, replicate, RBAC
+
+
+######################################################################
+PAGE 4: TROUBLESHOOTING   https://sadservers.com/troubleshooting
+Title: Troubleshooting Guides | SadServers Hands-On Practice
+######################################################################
+[EYEBROW] SADSERVERS TROUBLESHOOTING
+[H1] Incident Response and Troubleshooting Tips
+[INTRO] When you're on call and an alert fires, work through these incident steps in order. Debugging or troubleshooting comes late - after verification, triage, communication, and mitigation, and just before the postmortem:
+[ORDERED LIST]
+ 1. Verify the issue
+ 2. Triage
+ 3. Communicate and escalate if needed
+ 4. Mitigate
+ 5. Troubleshoot
+ 6. Postmortem
+[TEXT] These are general incident response and debugging techniques you can use:
+[BULLETS]
+ - Do not make things worse, e.g., don't randomly change things you are not familiar with; follow existing runbooks and procedures whenever possible.
+ - Communicate with the team. Take notes as you go, including what you observe and what you change. A chat medium like Slack is good since it also keeps a timeline (we want to have backup ways of communicating). Acknowledge other people's messages.
+ - Coordinate so people don't step on each other. Communicate intent and be specific (e.g., "going to restart the x database in y host"). Make sure everybody knows who's got controls. Ideally, one person should lead the troubleshooting effort and make changes, while others support by checking things, communicating with Customer Support and other teams, etc.
+ - Try to divide the problem space, ideally in half. However, you don't need to start strictly in a systematic way if you have strong historical indicators pointing to likely causes.
+ - Change one thing at a time. Be mindful of what changes are easy to roll back and which are not. Follow good sysadmin practices like making a backup copy of a file before modifying it.
+ - Test first what has worked before. However, if you find yourself fixing the exact same issue repeatedly, that's usually a strong indicator that the underlying problem has not been properly addressed.
+ - Run the quickest tests that provide useful information first.
+ - If the initial quick tests fail, it's often a good idea to pause, step back, and restart debugging in a more systematic fashion. Revisit basic assumptions and validate your mental model of how the system is supposed to work with other people.
+[H2] Troubleshooting Guides by Technology
+Production troubleshooting tips, common failure modes, and diagnostic commands for Linux, DevOps and SRE technologies.
+[GRID - technology cards with descriptors]
+Linux & Bash: Bash (Shell, scripts, pipelines); Cron (Scheduled jobs, crontab, logs); Disk volumes (Mounts, LVM, fstab, space); DNS (Resolution, records, resolv.conf); SSH (Keys, sshd, scp, bastions); Supervisord (Process supervisor (legacy)); systemd (Units, services, timers, journal)
+Web Servers: Apache (httpd, vhosts, modules, logs); Caddy (Reverse proxy, TLS, Caddyfile); Nginx (Server blocks, proxy, upstreams); HAProxy (Load balancing, ACLs, health checks); Gunicorn (WSGI workers, Django, Flask); SSL / TLS (Certs, openssl, Let's Encrypt); Traefik (Dynamic proxy, Docker, K8s)
+Databases: ClickHouse (OLAP, merges, replication); Postgres (SQL, psql, locks, vacuum); MySQL (MariaDB, InnoDB, replication); SQLite (Embedded DB, WAL, Litestream); Redis (Cache, pub/sub, persistence, replication); MongoDB (Documents, replica sets, indexes); etcd (K8s state store, Raft, snapshots)
+Data Processing: Data processing (JSON, CSV, ETL, batch vs stream)
+Docker: Docker (Images, containers, Compose, networks); Podman (Daemonless, rootless, pods, Quadlet)
+Kubernetes: Kubernetes (Pods, kubectl, RBAC, krew plugins); Helm (Charts, releases, values, rollback)
+CI/CD: Jenkins (Pipelines, agents, CI/CD automation); GitHub Actions (Workflows, runners, YAML pipelines); Gitea (Self-hosted Git, Actions, runners)
+Infrastructure as Code: Ansible (Playbooks, inventory, roles, modules); Terraform (HCL, state, plan/apply, modules)
+Tooling / Applications: Git (Clone, branch, merge, remotes); FTP (vsftpd, PASV, legacy B2B feeds); RabbitMQ (RMQ, dashboard, queues, consumers); Envoy (Proxy, xDS, admin API, mesh); HashiCorp Vault (Secrets, seal/unseal, policies); Harbor (Registry, scan, replicate, RBAC); Prometheus (Metrics, PromQL, Grafana dashboards)
+
+
+######################################################################
+PAGE 5: FOR INDIVIDUALS   https://sadservers.com/solutions/individual
+Title: Master Linux & DevOps Through Hands-On Practice | SadServers for Individuals
+######################################################################
+[EYEBROW] SADSERVERS FOR INDIVIDUALS
+[H1] Master Linux & DevOps Through Real-World Practice
+Build practical skills through hands-on troubleshooting scenarios that mirror real production challenges.
+[Button] START YOUR FIRST SCENARIO
+
+[H2] Why Hands-On Practice Changes Everything
+Reading documentation, watching videos, or copy-pasting commands from tutorials and courses can only take you so far because you are learning passively. Real expertise comes from learning actively: getting your hands dirty, thinking critically, making mistakes, and solving actual problems. Realistic hands-on practice is the best path to master any skill.
+
+[CARD 1 - Learn by Doing, Not by Reading]
+Theory fades, but muscle memory sticks. When you troubleshoot a real Nginx configuration error or debug a failing Docker container, you build intuition that no video or tutorial can provide. You learn the commands, the workflows, and most importantly, the thinking patterns that separate novices from experts.
+[CARD 2 - Accelerate Your Career Growth]
+Hiring managers can spot the difference between someone who read about Kubernetes and someone who's actually debugged failing pods at 2 AM. Hands-on experience is the currency of the DevOps and SRE industries. Every scenario you solve is proof you can handle production systems.
+[CARD 3 - Stay Current with Technology]
+The DevOps landscape evolves rapidly. Regular practice keeps your skills sharp and your knowledge current. Whether you're learning new tools or reinforcing fundamentals, continuous hands-on training ensures you never fall behind.
+[CARD 4 - Showcase Your Skills]
+Show off your skills to potential employers or clients. SadServers provides a certificate of achievement page you can add to your resume or LinkedIn profile and a certificate of achievement PDF file.
+[CARD 5 - Safe Environment to Fail and Learn]
+Break things without consequences. Every SadServer is disposable - crash it, corrupt it, experiment wildly. This is where you make your mistakes and learn from them, not in production where mistakes cost money and reputation.
+[CARD 6 - Practice at Your Own Pace]
+No classes to attend, no deadlines to stress over. Train during your lunch break, late at night, or whenever you have 20 minutes. Each scenario is self-contained and can be completed independently. Your learning, your schedule.
+
+[H2] Your Path to Mastery
+There are many Linux, DevOps and SRE roadmaps (heck, we have our own DevOps Upskill Challenge!), but the truth is, DevOps is very vast (what is DevOps anyway?).
+Other than a few dependencies (like learning Linux and basic networking first, or that you need Docker knowledge to understand Kubernetes and a lot of CI/CD), you can start anywhere and progress at your own pace.
+Here's some technology topics you can explore in SadServers:
+
+01 Start with Linux & Bash Fundamentals  [EASY MEDIUM HARD]
+Master the command line, file systems, permissions, processes, Systemd and shell scripting. Linux, networks and automation are the building blocks of everything in DevOps. Learn to navigate the terminal blindfolded and automate repetitive tasks.
+ Tip: If Easy scenarios feel too simple, perfect! Use them to build speed. Can you solve them in under 2 minutes? That's the goal. Easy scenarios should become reflexive.
+02 Web Servers  [EASY MEDIUM HARD]
+Web servers are the backbone of the internet. Learn to configure and troubleshoot them, including Nginx, Apache, HAProxy, Caddy, Gunicorn, Traefik, uWSGI, HTTPS/TLS and SSL certificates.
+03 Database Servers  [EASY MEDIUM HARD]
+Database servers are fundamental to modern applications. Learn to configure and troubleshoot them, including PostgreSQL, MySQL, Redis, SQLite3, ClickHouse and MongoDB.
+04 Data Processing  [EASY MEDIUM]
+Manipulate and transform data from one format to another. This is a key skill for DevOps automation and data analysis. Get familiar with CSV, JSON and SQL queries.
+05 Level Up with Docker  [MEDIUM HARD]
+Once you're comfortable with Linux fundamentals, dive into containerization. Learn to build images, manage containers, debug networking issues, and understand how Docker transforms application deployment. Get familiar with Docker Compose and Podman.
+06 Master Kubernetes Troubleshooting  [MEDIUM HARD]
+Ready for the big leagues? Kubernetes scenarios will test your understanding of pods, services, deployments, and cluster management. This is where it all comes together - Linux knowledge, container expertise, and distributed systems thinking. Get familiar with fundamental tooling like kubectl and Helm.
+07 Tooling & Applications  [EASY MEDIUM HARD]
+Learn to configure and troubleshoot popular tools like Git, RabbitMQ, Envoy, Vault, Harbor, Prometheus, Jenkins and more.
+ Note: Even if you are not using these tools in your day to day work, it's good to get familiar with them. Also it's a good way to practice your troubleshooting skills on unfamiliar systems.
+08 Hacking & Security  [EASY MEDIUM HARD]
+Use these "Capture the Flag" (CTF) scenarios to practice your hacking and security skills. Find code vulnerabilities, privilege escalations and more.
+ Note: You can treat these scenarios as fun challenges, but they may not necessarily be realistic or relate to your day to day work. Still you'll learn security concepts from them.
+
+[CALLOUT] Remember: You don't need to follow a perfectly linear path. Feeling confident in Linux? Jump into Docker. Want to challenge yourself? Try a Hard scenario. The best learning happens just outside your comfort zone.
+[CALLOUT] Using Clues: If you get stuck in a scenario you can use its clues to help you solve it. It's best for learning if you don't give up easily and try to make progress yourself first. The clues include a solution for the scenario (but take into account there may be multiple ways to solve it).
+
+[H2] Explore by Technology
+Dive deep into specific tools and technologies. Each tag contains curated scenarios focused on that particular technology.
+[TAG CLOUD] apache, bash, c, caddy, clickhouse, csv, data processing, disk volumes, dns, docker, envoy, etcd, git, golang, gunicorn, haproxy, harbor, hashicorp vault, helm, java, jenkins, json, kubernetes, linux-other, mongodb, mysql, nginx, node.js, php, podman, postgres, prometheus, python, rabbitmq, redis, sql, sqlite, ssh, ssl, supervisord, systemd, traefik
+
+[H2] You've Got This
+Every expert was once a beginner who didn't give up. Every "simple" problem you solve today is building the intuition you'll rely on for complex production incidents tomorrow.
+Stuck on a scenario? Good. That means you're learning. The frustration you feel right before the breakthrough is where real growth happens. Push through it.
+Fast developers aren't smarter; they've just seen more error messages. Every scenario you complete adds another pattern to your mental library. Every failure teaches you what doesn't work. Both are equally valuable.
+Don't compare your progress to others. Some people have been doing this for many years. Some started yesterday. The only person you need to be better than is the person you were last week. Keep showing up, keep solving scenarios, keep pushing your boundaries.
+[Button] START YOUR FIRST SCENARIO
+
+
+######################################################################
+PAGE 6: FOR BUSINESSES   https://sadservers.com/solutions/business
+Title: Linux & DevOps Assessment Platform for Technical Hiring & Training | SadServers for Business
+######################################################################
+[EYEBROW] SADSERVERS FOR BUSINESSES
+[H1] Evaluate Engineers with Real-World Linux & DevOps Scenarios
+Stop relying on whiteboard coding and theoretical questions. Assess technical skills with hands-on troubleshooting challenges that reveal how candidates and team members actually work under pressure.
+[Buttons] EXPLORE USE CASES | View Pricing
+
+[H2] The Assessment Platform Built for Technical Teams
+Ready-to-use Linux and DevOps scenarios that give you immediate insight into real technical capabilities. No setup, no infrastructure headaches - just instant, practical assessment of the skills that matter.
+[CARD] Real-World Scenarios - Production-grade troubleshooting challenges across Linux, Docker, Kubernetes, databases, and more. Each scenario mirrors actual incidents your team will face in the field.
+[CARD] Results Dashboard - Track performance across your entire organization. See completion rates, time-to-solve and number of clues used. Make data-driven hiring and training decisions.
+[CARD] Instant Assessment - No waiting for environment setup. Send candidates or team members a link and get results within minutes. Automated validation means no manual grading required for filter interviews.
+[CARD] Business-Exclusive Content - Access scenarios available only to business subscribers. Get unpublished challenges that test expertise in production environments.
+[CARD] Custom Private Scenarios - Need to test skills specific to your stack? We'll create custom scenarios tailored to your exact infrastructure, tools, and challenges. Completely private to your organization.
+[CARD] Flexible Pricing - Choose what works for you: monthly subscriptions for consistent use, annual plans for cost savings, or pay-per-use for seasonal hiring or training needs.
+
+[H2] How It Works
+ 1. Create interviews for candidates or team members with specific scenarios and difficulty levels
+ 2. Optionally, you can set a custom max time for the scenarios or disable showing the clues and solution
+ 3. Users receive instant access to live Linux servers
+ 4. They troubleshoot and solve real production issues
+ 5. Optionally, you can join the candidate's session to help them or review their work
+ 6. The candidate's command log history is saved so the candidate's performance can be reviewed
+ 7. Automated validation checks their solutions
+ 8. Results appear in your dashboard immediately
+ 9. Review performance and completion details
+10. Make informed decisions based on actual capability
+
+[H2] Three Ways Organizations Use SadServers
+From technical interviews to internal training to AI agent development, discover how teams across industries use practical assessment to build stronger technical capabilities.
+
+01 Technical Interview Assessment
+Evaluate Linux SysAdmin, DevOps, and SRE candidates with scenarios that reveal real problem-solving ability, not memorized answers.
+Why It Works Better Than Traditional Interviews:
+ - Objective evaluation: No bias, no ambiguity. Scenarios have a clear pass/fail criteria. The clues are the same for all candidates. Of course a candidate can be assessed based on other criteria besides finding the solution. Command log history from the scenario session is saved so the candidate's performance can be reviewed.
+ - Real-world relevance: See how candidates actually troubleshoot under time pressure, not how they perform on whiteboards.
+ - Time efficient: 30 minutes of hands-on work tells you more than hours of theoretical questioning.
+ - Stress-test skills: Identify candidates who can think systematically when facing unfamiliar problems.
+ - Level calibration: Use Easy, Medium, and Hard scenarios to accurately gauge experience level.
+ - Fairness: Save time by avoiding candidates trying to use covert AI helpers to pass job interviews.
+ - Hiring Impact: Hands-on work sample tests are highly effective predictors of job performance [1998 meta-analysis by Frank L. Schmidt and John E. Hunter].
+Typical Interview Flow: 1. Screen resume | 2. Send scenario link | 3. Candidate solves (30min) | 4. Review dashboard results | 5. Technical deep-dive | 6. Hire with confidence
+
+02 Internal Training & Team Evaluation
+Upskill your engineering team, identify knowledge gaps, and run engaging technical workshops or competitions.
+Training & Development Use Cases:
+ - Onboarding: Bring new hires up to speed on your infrastructure patterns with custom scenarios.
+ - Skill assessment: Identify which team members need additional training in specific technologies.
+ - Learning events: Host internal hackathons, lunch-and-learns, or friendly competitions.
+ - Knowledge retention: Regular practice keeps skills sharp between incidents.
+ - Team building: Collaborative solving sessions strengthen team dynamics.
+ - Team certifications: Help teams get professional certifications by doing practical exercises.
+ - Training ROI: Research indicates that teams practicing chaos engineering observe a significant reduction in MTTR. In one study, 23% of teams achieved an MTTR of under one hour, and 60% reduced their MTTR to under 12 hours [2021 State of Chaos Engineering Report published by Gremlin].
+Event Ideas: Competitions (Fastest solve wins prizes) | Workshops (Group learning sessions) | Challenges (Weekly skill-building) | Assessments (Quarterly skill reviews)
+
+03 AI Agent Evaluation & Training
+Test and train AI agents on real Linux and DevOps tasks. Benchmark autonomous systems against production-grade challenges.
+Why Organizations Use SadServers for AI:
+ - Agent benchmarking: Measure your AI's ability to solve real sysadmin tasks, not toy problems.
+ - Training data: Use scenarios as structured environments for reinforcement learning.
+ - Capability testing: Systematically evaluate what your agents can and cannot handle.
+ - Regression testing: Ensure new versions maintain or improve troubleshooting performance.
+ - Competitive analysis: Compare your agent's performance against industry benchmarks.
+ - Research platform: Controlled environment for studying AI behavior in systems administration.
+ See it in action: We benchmark AI models on SadServers scenarios at SREBattle.com.
+AI Integration checklist: API access available | Automated evaluation | SSH access for agents | Custom scenarios | Performance metrics | Batch testing
+
+[H2] Flexible Pricing for Every Organization
+Whether you're hiring once a quarter or training teams year-round, we have a pricing model that works for you.
+ Monthly Subscription - Best for consistent hiring needs or ongoing team training. Cancel anytime.
+ Annual Plan - Committed to long-term team development? Save big with annual billing.
+ Pay-Per-Use - Seasonal hiring? Short-term training needs? Only pay for what you use, when you use it.
+[Button] SEE PRICING DETAILS
+
+[H2] Ready to Assess Real Technical Skills?
+Stop guessing about technical competence. Start measuring it with scenarios that mirror the work your team actually does.
+Whether you're hiring your next SRE, training your DevOps team, or building autonomous agents, SadServers gives you the practical assessment platform you need.
+[Buttons] CONTACT SALES | See Pricing Details
+Questions? Email us at info@sadservers.com
+
+[H2] Frequently Asked Questions (questions only; answers collapsed)
+ - Can I try the Business plan?
+ - How do I see my candidates' or team members' results?
+ - What makes business-exclusive scenarios different?
+ - Can you create custom scenarios for our specific technology stack?
+ - How does pay-per-use pricing work?
+ - Is there an API for programmatic access?
+ - Can candidates or users try the scenarios on their own time?
+
+
+######################################################################
+PAGE 7: PRICING   https://sadservers.com/pricing
+Title: SadServers: DevOps & SRE Labs | Job Interview Prep & Assessment
+######################################################################
+[H1] Choose a plan that works for you
+Cancel Subscriptions At Any Time
+[TOGGLE] Individual plans | Business plans
+
+--- INDIVIDUAL PLANS --- "For engineers looking to level up their skills"
+HOBBYIST - Free
+ - Practice on a selection of scenarios
+ - Dashboard to track your progress
+ [Button] Get started
+ Note: Upgrade to Pro or Pro+ for full access
+
+PRO - USD $9 / month (or only $72 yearly, 33% off)
+ - Unlimited practice across over 125 scenarios, including complex, realistic and interview-style challenges with solutions
+ - Double the time to complete scenarios
+ - All VMs with Internet access
+ - Achievements Page
+ - Email support
+ [Buttons] Buy $9 / month | Buy $72 / year (33% off) | Pro Plan Details
+
+PRO+ - USD $11 / month (or only $88 yearly, 33% off; or $249 lifetime, one-time)
+ All the Pro features plus:
+ - Direct SSH access to VMs
+ - Command history logging
+ - Invitations to scenarios
+ - Command Line Interface / Terminal UI
+ [Buttons] Buy $11 / month | Buy $88 / year (33% off) | Buy $249 lifetime | Pro+ Plan Details
+
+Prefer a one-time payment? You can buy a Pro+ Account as a gift for yourself or someone else, or ask your company to cover it as professional development.
+Join thousands of engineers like you sharpening their hands-on skills and accelerating their careers with SadServers!
+Please read our Terms and Conditions and our Privacy Policy
+
+--- BUSINESS PLANS --- "For organizations recruiting or training"
+BUSINESS SUBSCRIPTION - USD $245 / month (or only $1,470 yearly, 50% off)
+ Intro: Some months busier than others? Pick a yearly plan and use your interviews or training sessions anytime. No monthly limits.
+ [Button] Try Business for 7 days for free (Pro+ users only)
+ - Unlimited users
+ - Up to 500 interview sessions per year
+ All the Pro+ features plus:
+ - Automatic onboarding of organization users
+ - Interview job candidates:
+     Create interviews with any scenarios. Set custom times or disable showing the clues
+     Invite any number of candidates
+     One-click creation of scenario servers for candidates from a shared link
+     Join with web terminal the candidate's server
+     View interview results in the dashboard
+     View the candidate's command history
+ - API access to run scenario VMs
+ - Premium Email support
+ [Buttons] Buy $245 / month | Buy $1,470 / year (50% off) | Business Subscription Plan Details
+
+BUSINESS PAY-PER-USE - From USD $400
+ All the Business Subscription features, offered as a pay-as-you-go option
+ - Unlimited users
+ [Buttons] Buy 50 interviews for $600 | Buy 25 interviews for $400 | Business Pay-Per-Use Plan Details
+
+CUSTOM - Let's Talk
+ Contact us for custom pricing and packages built to suit your assessment volume or custom needs like: Large number of interview sessions; Whitelabel branding; Custom scenarios; SSO; ATS integration; Self-hosted option; Advertising; Partnerships
+
+Please read our Terms and Conditions and our Privacy Policy
+
+
+######################################################################
+PAGE 8: GIFT   https://sadservers.com/gifts/
+Title: SadServers: Linux, DevOps & SRE Labs | Interview & Hiring Assessment
+######################################################################
+[H1] Gift SadServers
+[SUBHEAD] Professional Development and Training for your Team or Friends
+Pay once for a SadServers Pro+ Account for an individual or multiple users. The gift will be sent to the recipient(s) via email.
+See details at: Gift SadServers documentation.
+[H2] What's included in a Pro+ Account
+ - Access to all scenarios
+ - Unlimited tries
+ - Unlimited number of scenarios per day
+ - Double the time to complete scenarios
+ - VMs with Internet access
+ - Achievements Page
+ - Direct SSH access to VMs
+ - Command History Logging
+ - Invitations to scenarios
+ - Email support
+[FORM]
+ Choose a plan (one-time payment, does not renew):
+   $33 for three months
+   $66 for six months
+   $110 for one year
+   $199 for two years
+ Recipient Emails
+ Message (Optional)
+ How should the gift be sent?
+   Send with my info - Let the recipient know it's from you - include your name and contact email.
+   Send anonymously - Your gift will be sent anonymously.
+ Signature (Optional)
+ Contact Email (Optional)
+ [Button] Continue to Checkout
+
+--- GIFT REDEEM PAGE   https://sadservers.com/gifts/redeem/ ---
+[H1] Redeem Your SadServers Pro Gift
+ - Access to all scenarios
+ - Unlimited tries
+ - Unlimited number of scenarios per day
+ - Double the time to complete scenarios
+ - VMs with Internet access
+ - Achievements Page
+ - Direct SSH access to VMs
+ - Command History Logging
+ - Invitations to scenarios
+ - Email support
+Please log in or register to redeem your gift.
+
+
+######################################################################
+PAGE 9: RANKING   https://sadservers.com/ranking
+Title: SadServers: Linux, DevOps & SRE Ranking - Top Engineers
+######################################################################
+[H1] SadServers Ranking
+This is a Pro Account feature.
+Easy = 1 point, Medium = 2 points, Hard = 5 points
+[TABLE] Top 20 Users | columns: # | User Alias | Points
+ 1 sergio 299 | 2 Ryan1002 290 | 3 ozanuslan 289 | 4 upixDenpasar 283 | 5 murzindima 260
+ 6 Algried 254 | 7 Theo BORI 254 | 8 masover 244 | 9 tem 229 | 10 MeyanManul 216
+ 11 Jesse Rhoads 215 | 12 l 212 | 13 Continuous Improvement 210 | 14 melinoix 202 | 15 NeoMacFly 201
+ 16 Aleksandr 193 | 17 Fernando Duran 190 | 18 Artem Shugayev 187 | 19 kataoka 177 | 20 AG 174
+(Public user aliases as shown on the live leaderboard at capture time; scores change.)
+
+
+######################################################################
+PAGE 10: FAQ   https://sadservers.com/faq
+Title: FAQ | SadServers
+######################################################################
+[EYEBROW] HELP CENTER
+[H1] Frequently Asked Questions
+Answers to frequently asked questions about SadServers scenarios, Linux troubleshooting labs, subscriptions, organizations, interviews, accounts, and platform features.
+[SECTION LINKS] Getting Started | Scenarios & Labs | Scenario Environment | Learning, Progress & Scoring | Certificates & Badges | Pro, Pro+ & Business Accounts | Gift Accounts | Job Interviews | Organizations & Teams | Subscription & Billing | Technical Issues | Security & Privacy | Content & IP | API & CLI/TUI | Support | Other
+
+[H2] Getting Started
+Intro: New to SadServers? Learn how hands-on Linux and DevOps practice works on real VMs, what you need to begin, and how to create a free account. Browse scenarios or sign up to save your progress.
+ - What is SadServers?
+ - What is SadServers' philosophy?
+ - Who is it for?
+ - How does it work?
+ - Where do I learn more about SadServers' history or how it works technically?
+ - Do I need to install anything?
+ - What Linux knowledge is expected?
+ - Can I try it for free?
+ - How do I create an account?
+ - Why do I want to create an account?
+ - Can I sign in with Google or GitHub?
+ - I forgot my password
+
+[H2] Scenarios & Labs
+Intro: SadServers scenarios are interactive troubleshooting exercises on real cloud VMs, from quick fixes to senior-level interview challenges. This section covers scenario types, access levels, hints, labs, and solution checking. Pick a scenario and start practicing.
+ - What are scenarios?
+ - Where do scenarios run?
+ - What types of scenarios are there?
+ - What types of access do scenarios have?
+ - What are Labs?
+ - My solution is right but the "Check My Solution" button says it's wrong
+ - How long does a scenario server take to come up?
+ - How difficult are the scenarios?
+ - How long does a scenario take?
+ - There's not enough time to finish some scenarios
+ - Can I restart a scenario?
+ - Can I run multiple scenarios at the same time?
+ - Are there hints?
+ - Are solutions available?
+ - Is the solution given in the clues the best or recommended solution?
+ - Can I create my own scenarios?
+ - How often are new scenarios added?
+ - Do you ever retire scenarios?
+ - Is there a place to see scenario descriptions & test?
+ - Why don't you publish the scenario clues & solution?
+
+[H2] Scenario Environment
+Intro: Every SadServers session runs on a dedicated cloud VM. You are free to practice and play in these sandboxes.
+ - What operating system or Linux distribution is used?
+ - Do I have root access?
+ - What software is pre-installed?
+ - Are all scenarios on a single VM?
+ - Can I break things permanently?
+ - Do I need a browser or can I use my own terminal?
+ - Can the VM reach the internet?
+ - What are resumable VMs?
+
+[H2] Learning, Progress & Scoring
+Intro: Track solved/unsolved scenarios on your dashboard. See how completion and scoring work so you can measure real Linux troubleshooting skill over time.
+ - How do I track my progress?
+ - How is completion tracked?
+ - How does scoring work?
+ - What is the Ranking page?
+ - Are there streaks?
+ - Does progress carry over across devices?
+ - Can I repeat completed scenarios?
+ - Is there a recommended learning path?
+ - How do I start learning Linux?
+ - How do I learn DevOps or build a DevOps project?
+ - Are there beginner, intermediate, and advanced tracks?
+
+[H2] Certificates & Badges
+Intro: Pro subscribers earn shareable certificates and embeddable badges that showcase troubleshooting progress on LinkedIn, GitHub, or a portfolio. Stand out in DevOps, SRE, and Linux sysadmin hiring with verified hands-on achievements.
+ - What are certificates and badges?
+ - Are certificates and badges available on free accounts?
+ - How do I earn a level?
+ - How do I set up my certificate page?
+ - How do I download my PDF certificate?
+ - How do I add a badge to GitHub or my resume?
+ - Can employers verify my certificate?
+ - What does a completed scenario prove?
+
+[H2] Pro, Pro+ & Business Accounts
+Intro: Thinking about upgrading? These answers cover what each paid plan includes, who it is for, and how to get started. Compare pricing on the pricing page and the business pricing page.
+ - Why upgrade from the free Hobbyist plan?
+ - What plans are available?
+ - Which plan should I choose (Pro, Pro+, or Business)?
+ - What's the difference between a Business subscription and pay-per-use?
+ - What is direct SSH access to VMs?
+ - What is command history logging?
+ - What are invitations to scenarios?
+ - When should my company choose Business?
+ - Can I try the Business plan?
+ - How do I subscribe or upgrade?
+ - What is Pro+ lifetime?
+
+[H2] Gift Accounts
+Intro: With the Gift feature, someone (with or without a SadServers account) can make a one-time purchase to give somebody else a Pro+ account. This is an excellent low-cost choice for companies that offer professional development (career development) or training stipends for their employees. Buy a gift.
+ - Can I gift SadServers to someone?
+ - Can my organization pay for my SadServers subscription?
+
+[H2] Job Interviews
+Intro: Run live or asynchronous technical interviews on real Linux VMs with automated scoring and candidate dashboards. Explore solutions for business or business pricing.
+ - How do interview sessions work?
+ - What types of interviews does SadServers support?
+ - How do candidates sign in?
+ - How do I invite candidates?
+ - Do candidates need to create a SadServers account before the interview?
+ - Can I see candidate progress?
+ - How is performance evaluated?
+ - Can I customize the scenario set?
+ - Can I customize the scenario time?
+ - Can I hide the timer in the scenarios?
+ - Can I hide the clues from the candidates?
+ - How long should an interview be?
+ - Can candidates continue later?
+
+[H2] Organizations & Teams
+Intro: Business organizations give your company a shared workspace for training, hiring, and team practice, with Pro+ features for every member. Set up invites and run interviews at scale. Larger deployments with custom scenarios, SSO, volume pricing, or AI agent evaluation can contact info@sadservers.com. View business pricing.
+ - What is an Organization?
+ - How do I invite team members?
+ - Can I transfer ownership?
+ - How are seats counted?
+ - Can members access all scenarios?
+ - Do you offer enterprise plans?
+ - Do you support SSO?
+ - Can you provide custom scenarios?
+ - Can you deploy on-premises?
+ - Can SadServers be used to evaluate AI agents?
+ - Do you offer academic discounts?
+ - Where is customer data stored?
+
+[H2] Subscription & Billing
+Intro: Plan features and which tier to choose are covered in Pro, Pro+ & Business Accounts. This section covers payments, cancellation, and account billing.
+ - How does billing work?
+ - How do subscriptions work?
+ - Can I cancel a subscription anytime?
+ - What happens when I cancel a subscription?
+ - Can I pause my subscription?
+ - Can I switch plans?
+ - Do you offer refunds?
+ - How do I get invoices and receipts from my subscription?
+ - What payment methods are accepted?
+ - Why did my payment fail?
+
+[H2] Technical Issues
+Intro: Terminal won't connect? Server slow to start? Fix common browser and network problems so you spend time learning Linux, not fighting the UI. See also our troubleshooting guide.
+ - Which browsers are supported?
+ - Does it work on tablets or phones?
+ - Why won't my web terminal connect?
+ - Ctrl-W closes the terminal window and that's annoying?
+ - Why is the server taking a long time to start?
+ - My session disconnected
+ - Can I use SSH?
+ - Are corporate firewalls supported?
+
+[H2] API & CLI/TUI
+Intro: Automate scenario VMs or practice from your own terminal with the SadServers REST API and beta sads CLI. Pro+ and Business users can integrate SadServers into CI, training pipelines, or AI agent benchmarks. Read the API documentation.
+ - Is there an API?
+ - How does API authentication work?
+ - What can I do with the API?
+ - What is the CLI/TUI?
+ - Who can use the CLI/TUI?
+ - How do I install and use the CLI/TUI?
+ - Can I integrate with my LMS or export results?
+
+[H2] Security & Privacy
+Intro: Your practice sessions run in isolated VMs; we protect account data and do not sell personal information. Review what we collect, how passwords are stored, and how interview candidate data is handled.
+ - Is my terminal isolated?
+ - What data do you collect?
+ - What data do you share?
+ - Are passwords stored securely?
+
+[H2] Content & Intellectual Property
+Intro: SadServers scenarios, labs, and branding are proprietary. Learn what you can share or cite, what requires permission, and how to request commercial or educational use of our content.
+ - Can I share scenario solutions publicly?
+ - Can I use SadServers content in courses or training materials?
+ - Who owns SadServers scenarios and content?
+ - Can I record or stream myself doing scenarios?
+ - How do I request permission to use SadServers content?
+
+[H2] Support
+Intro: Stuck or found a bug? Here is how to reach us, what response times to expect, and how Pro+ and Business customers get priority email support. Email info@sadservers.com.
+ - How do I report a bug?
+ - How do I report a security issue?
+ - How quickly do you respond?
+
+[H2] Other
+Intro: Platform trivia, scenario requests, testimonials, and where to follow SadServers updates. Have feedback? We read every message and welcome testimonials on the Wall of Love.
+ - How do I request a scenario?
+ - What can I do to help SadServers?
+ - What do people say about SadServers?
+ - Why is the platform called SadServers?
+ - How often do you release new content?
+ - Where can I follow updates?
+
+
+######################################################################
+PAGE 11: ABOUT   https://sadservers.com/about
+Title: About SadServers | Linux, DevOps & SRE Labs
+######################################################################
+[H1] About SadServers
+SadServers Inc. is a company incorporated federally in Canada and based in Waterloo, Ontario.
+The service was created in 2022 and since then it has helped tens of thousands of users and powered more than 3/4 million Linux & DevOps challenges across as many servers.
+Companies rely on SadServers to train their teams and evaluate job candidates. Organizations such as Metr, the AI Security Institute and SRE-focused AI companies trust SadServers for AI evaluations.
+We are proud to have the support of The Accelerator Centre.
+
+[H2] Mission
+Do. Learn. Assess.
+We believe the best way to learn is by doing. We also believe the best way to assess skills is through hands-on realistic tasks.
+Our mission is:
+ - To help professionals and students train and learn technical skills through hands-on, practical scenarios.
+ - To help companies evaluate job candidates with realistic scenarios that mirror real work tasks.
+
+[H2] Investors
+SadServers operates as a fully bootstrapped, profitable business with no outside funding. We're not looking for investors currently, though we're always open to exploring partnership opportunities.
+Having previously acquired assets from companies in similar spaces, SadServers is open to further expansion through strategic acquisitions or by funding promising companies and personal projects in our space.
+
+[H2] Contact
+Email: info@sadservers.com
+Phone: +1 (226) 336-3356
+LinkedIn: SadServers
+
+
+######################################################################
+PAGE 12: LOGIN   https://sadservers.com/accounts/login
+Title: Login | SadServers
+######################################################################
+[H1] Login
+Don't have an account? Create one with just an email address.
+With a SadServers account you'll be able to easily keep track of your progress: what scenarios you've completed and in what time. You can also manage your running or saved servers.
+We won't share your email address; we are very serious about your privacy.
+[FORM] Login with Email | Email* | Password* | [Button] Login
+Forgot your password? Reset by email
+(Visiting /accounts/dashboard while signed out redirects here: /accounts/login?next=/accounts/dashboard)
+
+
+######################################################################
+PAGE 13: SIGN UP   https://sadservers.com/accounts/signup
+Title: SadServers: Linux, DevOps & SRE Labs | Interview & Hiring Assessment
+######################################################################
+[H1] Create an Account
+With a SadServers account you'll be able to easily keep track of your progress: what scenarios you've completed and in what time. You can also manage your running or saved servers.
+Create an account with just an email address.
+We won't share your email address; we are very serious about your privacy.
+[FORM] Sign Up with Email | Email* | Newsletter (checkbox): Sign up for new scenarios announcements. | Password* | Password again* | [Button] Sign Up
+If you already have an email account, login instead.
+
+
+######################################################################
+PAGE 14: DOCS HUB   https://docs.sadservers.com/docs/
+Title: Docs - SadServers
+######################################################################
+Docs
+ - FAQ
+ - How SadServers Works
+ - Terms & Conditions
+ - Support
+ - Pro Paid Accounts
+ - Business Accounts
+ - Gift SadServers
+ - SadServers API
+ - Troubleshooting
+ - Make Money Creating Scenarios
+ - Linux World Cup
+ - Job Interviews
+ - Scenario Guides
+ - Command Line Interface (CLI) - Terminal User Interface (TUI)
+
+
+######################################################################
+PAGE 15: DOCS - BUSINESS ACCOUNTS   https://docs.sadservers.com/docs/business/
+Title: Business Accounts - SadServers
+######################################################################
+[H1] Business Accounts
+[H2] Purchase a Business Plan
+Organizations that use SadServers must sign up for a Business account rather than using a Pro account.
+The Business account allows organizations to use SadServers as a job candidate interviewing tool and/or as an internal training, assessment or event tool.
+Currently the Business account plan is offered as a subscription (with monthly or yearly renewal periods) or as pay-as-you-go packages (Pay-Per-Use Account).
+Business Accounts (including trials) are subject to our general Terms and Conditions.
+
+[H2] Benefits
+[H3] For Users
+The Business account allows for an unlimited number of internal organization users.
+Users can be onboarded automatically either by invite, or automatically (self-directed) if they have a SadServers account.
+Organization users enjoy all the Pro+ features:
+ - Access to all scenarios, including the harder, more complex ones.
+ - Unlimited tries of all scenarios - including already solved scenarios - unlike free accounts that cannot retry solved scenarios multiple times.
+ - Unlimited number of scenarios per day, there's no rate-limiting for Pro+ accounts.
+ - Double the time to complete scenarios. All scenario VMs have twice the time to be solved before being automatically terminated.
+ - Direct SSH access to VMs. Scenario servers in Pro+ accounts can be accessed directly by SSH. Users can upload their public SSH key to their dashboard or they can use a one-time private key they can download from the running scenario page. This allows users to use their own SSH terminal rather than using the terminal-to-web interface.
+ - VMs with Internet access. This allows users, for example, to install their own tooling. Additionally, some scenarios may require Internet access to be solved.
+ - Achievements Page. Users can add their name or alias in their dashboard and display (or hide) a public page with their SadServers achievements (a sort of certificate in troubleshooting skills). This includes a downloadable PDF. See for example: https://sadservers.com/user/fduran/
+ - Ranking Page. Feature their name or alias in the Ranking page.
+ - Command History Log. In their Dashboard, users can review commands they entered in past scenarios. Command history is kept for scenarios created in the last 30 days. NOTE: On some complex scenarios, logging may start up to ~15 seconds after the console prompt appears, so the first commands may not be recorded.
+
+[H3] For Hiring
+The Business plan includes all that is needed in order to interview job candidates with SadServer scenarios and be able to see their performance, with zero friction for users or candidates.
+The "happy path" for interviewing candidates is:
+ 1. Add users to your organization. See Onboarding.
+ 2. Create one or more interviews with any number of scenarios. See Creating Interviews.
+ 3. Invite any number of candidates to the interviews. See Adding Candidates. For each scenario and candidate a "magic" one-time link is created and emailed to the candidate (or you can share in any way with them, for example in a chat tool right before the interview).
+ 4. At interview time, or asynchronously, the candidate clicks on the link and this creates the scenario challenge they have to work on. This has zero-friction for candidates; they don't need to create a SadServers account or do anything else. See Interview Time.
+ 5. Optionally, you can join with the web terminal the candidate server during the interview.
+ 6. Once the exercise is over, the interview results (time to solve if solved and number of clues used) can be seen in a dashboard shared across the organization. See Interview Results.
+ 7. Anyone in the organization can view or download the candidate's shell command history for the scenario they worked on. Command history is kept for scenarios created in the last 30 days. NOTE: On some complex scenarios, logging may start up to ~15 seconds after the console prompt appears, so the first commands may not be recorded.
+
+[H3] For Events
+Companies use SadServers to organize team building or competition events. These events can be organized in the same way as job interviews, only the "interview" would be the event and instead of external job candidates you have internal users but the mechanics are the same.
+
+[H3] Other Benefits
+ - API access to run scenario VMs. See SadServers API Documentation
+ - Preferential Email support. See Premium Support
+
+[H2] Subscriptions & Cancellations
+We use Stripe, a trusted external payment processor, to handle all transactions securely. Your credit card details are never seen or stored by us.
+Payment is required upon sign-up and the benefits of the Business account are available immediately.
+For subscriptions:
+ - You can cancel at any time; this means the subscription won't be renewed and you won't be charged again for it. This also means that there are no refunds for the time between the cancellation and the next billing cycle date. You still have the Business account features until the end of the billing cycle.
+ - Cancelling takes only three "clicks": from your dashboard click on "Manage billing", then at the Stripe screen click "Cancel Plan" and confirm.
+ - Annual subscriptions that are cancelled after two months can request a refund for the remaining pro-rated time in the subscription.
+
+[Purchase a Business Plan - repeated link]
+[H2] Onboarding  (heading shown at end of captured text; body not captured)
+
+
+######################################################################
+PAGE 16: BLOG   https://docs.sadservers.com/blog/
+Title: Blog - SadServers
+######################################################################
+(Newest first. Each entry on the page: title, excerpt, "Read more", then the date. 14 posts.)
+
+1. Hands-On Linux & DevOps Labs Compared   November 7, 2026
+ A short look at some of the best hands-on Linux and DevOps platforms using sandboxes, each good for a different kind of practice. Compares OverTheWire (free, sequential SSH wargame; Bandit is a 33-level beginner Bash wargame), KodeKloud (free + subscription; video courses + labs, cert paths, playgrounds, AI-guided plan), SadServers (free + paid; full Linux VMs, browser or SSH, candidate interviews; "especially good for hard Linux and DevOps troubleshooting, including software other platforms skip, like Vault, MongoDB or ClickHouse") and iximiuz Labs (free + paid; playgrounds + tutorials, strong for networking, Docker and Kubernetes). Ends: check them out, think about your particular case and look for reviews from actual users in specialized forums.
+
+2. How to write a recruiter email engineers will actually answer   September 13, 2026
+ "Brought to you by SadServers... (No AI tokens were spent in the creation of this post). I used to get a lot of emails from recruiters for Infra/Cloud/DevOps/SRE positions and it always amazed me that almost none of them were really good. And I get it, it's hard to recruit for a company that is not well-known, or doesn't offer a good salary, or doesn't have interesting technical challenges, or all of the above."
+
+3. Climb, Coast, or Quit: The Three Types of Employees   August 17, 2026
+ Excerpt: categorizing engineers (after over 30 years across government, startups and Big Tech) into three groups according to internal motivation. (No AI was used in the production of this article.)
+
+4. What We Learned Running AWS Spot Instances in Production   August 6, 2026
+ Excerpt: Spot is more than cheap VMs that can disappear; prices differ by Availability Zone ("we've seen a t3a.nano cost less than half as much in one AZ compared to the others"). SadServers uses AWS Spot instances extensively.
+
+5. Production Incidents   April 1, 2026
+ Excerpt: "The cause of all incidents or failures in a working system is ultimately a change." Proposes classifying failures as internal (static) or external to help troubleshooting. (No AI used.)
+
+6. The Complete Guide to AI-Powered SRE Tools: Hype vs. Reality   March 8, 2026
+ Excerpt: Examines AI tools that promise to autonomously detect, diagnose and resolve production issues, and why reality often falls short of the hype.
+
+7. 2025 Year in Review   December 22, 2025
+ Excerpt: Third year of SadServers; scenarios almost doubled to close to 100; new scenarios around ClickHouse, Harbor, Podman and Vault; users more than doubled; uptime close to 100%. New features: achievements page, scenario invites, command history logs, gift page, Business accounts; Asciinema replays decommissioned. Working on the next iteration, the "SRE Simulator" (used for Kubernetes sandboxes, still PoC). "Advent of Sysadmin" in December: 12 days, a new scenario each day, about 10,000 participants.
+
+8. Destroy and Deploy: the Joys of Immutability   October 11, 2025
+ Excerpt: A "grandpa story" about pets vs cattle servers; why a production server uptime of over a thousand days is not a good thing.
+
+9. Test Your Infrastructure with Game Days   October 8, 2025
+ Excerpt: Published in O'Reilly's "97 Things Every Cloud Engineer Should Know". "You don't have a backup until you have performed a restore"; resilience requires trying to break and recover.
+
+10. Don't SSH into Production   October 4, 2025
+ Excerpt: Also published in "97 Things Every Cloud Engineer Should Know". Routine server administration should be handled with automation and services, through code and software.
+
+11. Migrating Kubernetes out of the Big Cloud Providers   September 24, 2025
+ Excerpt: Argues that control plane and auxiliary service overhead plus easy costly mistakes make most Kubernetes installs more expensive than running workloads without it.
+
+12. Technical Interviews: We Can do Better   June 21, 2025
+ Excerpt: Hiring is expensive for companies and candidates; companies spend surprisingly little time preparing good interviews.
+
+13. What the F is DevOps?   October 31, 2024
+ Excerpt: Explains the origin of DevOps: developers wanting change vs sysadmins wanting stability, and the "wall" DevOps was meant to break down.
+
+14. Automation Is a Panacea   December 21, 2023
+ Excerpt: "Panacea: a solution or remedy for all difficulties." Since there are no panaceas, reframed as "something that is good to do in almost all circumstances".
+

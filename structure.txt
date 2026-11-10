@@ -1,0 +1,244 @@
+SADSERVERS.COM - SITE STRUCTURE AND PAGE DETAILS
+Reviewed: 2026-11-10 | Site build stamp: "Updated: 2026-11-04 22:58 UTC - 2f96d6b"
+Scope: main site (sadservers.com), docs index, Business Accounts doc page, and blog index (docs.sadservers.com).
+Not covered: logged-in Dashboard (requires login), individual scenario pages, per-technology Lab/Troubleshooting sub-pages, other docs sub-pages, individual blog posts, Privacy Policy, Terms of Service.
+
+======================================================================
+1. WHAT THE SITE IS
+======================================================================
+SadServers is a hands-on Linux, DevOps and SRE practice and assessment platform ("Like LeetCode for Linux and DevOps"). Users get a live, disposable cloud VM with a real broken system and must fix it (or complete a task), then click "Check My Solution". Two audiences:
+  - Individuals: learning, practice, certificates/achievements.
+  - Businesses: candidate interviews, internal training, AI agent evaluation.
+Company: SadServers Inc., federally incorporated in Canada, based in Waterloo, Ontario. Created 2022. Bootstrapped and profitable, no outside funding. Supported by The Accelerator Centre.
+
+======================================================================
+2. SITEMAP (URL TREE)
+======================================================================
+sadservers.com
+  /                              Home
+  /scenarios                     Scenario catalogue (Easy / Medium / Hard / K8s Playgrounds)
+  /labs/                         Learn by Technology (grid of technology cards)
+  /troubleshooting               Incident-response tips + troubleshooting guides by technology
+  /accounts/dashboard            Dashboard (login required; redirects to login)
+  /solutions/individual          For Individuals
+  /solutions/business            For Businesses
+  /ranking                       Ranking (Top 20 users; Pro feature)
+  /faq                           FAQ / Help Center
+  /pricing                       Pricing (Individual plans / Business plans toggle)
+  /gifts/                        Gift a Pro+ account
+  /gifts/redeem/                 Redeem a gift (login required)
+  /about                         About
+  /accounts/login                Login
+  /accounts/signup               Sign up
+  /user/<alias>/                 Public achievements page (example given in docs: /user/fduran/)
+External / sub-domain links:
+  https://list.sadservers.com/subscription/form    Newsletter signup
+  https://docs.sadservers.com/docs/                Documentation hub
+  https://docs.sadservers.com/docs/support         Support
+  https://docs.sadservers.com/docs/pro/            Pro Accounts
+  https://docs.sadservers.com/docs/proplus/        Pro+ Accounts
+  https://docs.sadservers.com/docs/business/       Business Accounts
+  https://docs.sadservers.com/docs/gift/           Gift docs
+  https://docs.sadservers.com/docs/api             API docs
+  https://docs.sadservers.com/docs/cli-tui/        CLI / TUI docs
+  https://docs.sadservers.com/docs/faq/#privacy    Privacy FAQ
+  https://docs.sadservers.com/docs/interviews/     Interview docs
+  https://docs.sadservers.com/docs/tc/             Terms & Conditions
+  https://docs.sadservers.com/blog/                Blog
+  https://stats.uptimerobot.com/ZRGoBu7Kp9         Uptime status page
+  Social: twitter.com/sadservers_com, bsky.app/profile/sadservers.com, mastodon.social/@sadservers, github.com/sadservers/sadservers, linkedin.com/company/sadservers
+  Contact: info@sadservers.com
+
+Docs hub (docs.sadservers.com/docs/) sections:
+  FAQ; How SadServers Works; Terms & Conditions; Support; Pro Paid Accounts; Business Accounts; Gift SadServers; SadServers API; Troubleshooting; Make Money Creating Scenarios; Linux World Cup; Job Interviews; Scenario Guides; Command Line Interface (CLI) - Terminal User Interface (TUI)
+
+======================================================================
+3. GLOBAL ELEMENTS (REPEATED ON EVERY PAGE)
+======================================================================
+Header / top navigation (left to right):
+  SadServers (logo, links to /) | Scenarios | Labs (dropdown) | Dashboard | Solutions (dropdown) | Ranking | Newsletter | FAQ | Documentation (dropdown) | Blog | Pricing | Gift (dropdown) | About | Log In - Sign Up
+  Labs dropdown: All Labs, then Linux & Bash, Web Servers, Databases, Data Processing, Docker, Kubernetes, CI/CD, Infrastructure As Code, Observability, Tooling / Applications
+  Solutions dropdown: For Individuals, For Businesses
+  Documentation dropdown: Support, Pro Accounts, Pro+ Accounts, Business Accounts, Gift, API, CLI/TUI, Privacy, Troubleshooting, Interviews, Blog, Terms & Conditions
+  Gift dropdown: Gift SadServers (/gifts/), Redeem (/gifts/redeem/)
+Footer:
+  Tagline: "Real-world Linux and DevOps scenarios for hands-on learning and technical assessment."
+  Column "Product": Scenarios, For Individuals, For Businesses, Pricing
+  Column "Resources": FAQ, Blog, Newsletter
+  Column "Company": About Us, Support, Privacy Policy, Terms of Service, Contact
+  Column "Connect With Us": info@sadservers.com, social icons
+  "Made in Canada" + build stamp line
+
+======================================================================
+4. PAGE-BY-PAGE STRUCTURE
+======================================================================
+
+----------------------------------------------------------------------
+4.1 HOME  (/)
+----------------------------------------------------------------------
+Title: SadServers: Linux, DevOps & SRE Labs | Interview & Hiring Assessment
+Type: single-screen landing page (very little text).
+Sections, top to bottom:
+  1. Hero: eyebrow "Hands-On Linux & DevOps"; headline "Real Challenges. Real Infra. Real Skills."
+  2. Subheading: master Linux & DevOps troubleshooting on live servers; fun challenges for engineers + powerful assessments for hiring teams.
+  3. Pull quote: "Like LeetCode for Linux and DevOps".
+  4. Call to action: "Try SadServers instantly for free - No sign-up required" -> button "Show Me Sad Servers".
+  5. Social-proof line: "Trusted & loved by thousands of engineers like you!"
+  6. Footer.
+
+----------------------------------------------------------------------
+4.2 SCENARIOS  (/scenarios)
+----------------------------------------------------------------------
+Title: same as home. H1: "SadServers Linux & DevOps Troubleshooting Scenarios".
+Structure:
+  - Banner: "Check out our new interface! (Beta for registered users; some features still in progress)"
+  - Action buttons: Feedback, New Scenario Notification
+  - Search box
+  - Category carousel (Previous/Next) with cards: Linux & Bash, Web Servers, Databases, Data Processing, Docker, Kubernetes, Infrastructure As Code, Observability, Tooling / Applications, Hacking, Languages (each with bullet list of topics)
+  - Tag filter bar (about 60 tags: advent2025, ai, ansible, apache, aws, cli, bash, c, caddy, clickhouse, cron, csv, data processing, disk volumes, dns, docker, elk, envoy, etcd, financial, finops, ftp, git, gitea, golang, gunicorn, hack, haproxy, harbor, hashicorp vault, helm, java, jenkins, json, kubernetes, linux-other, mongodb, mysql, nginx, node.js, php, podman, postgres, prometheus, python, rabbitmq, redis, sql, sqlite, ssh, ssl, supervisord, systemd, terraform, traefik) plus badge filters: realistic / interviews, new, pro, business
+  - Four tables, each with columns: # | Name | Time | Type, and Info / Run buttons on each row:
+      Easy ........ 33 scenarios
+      Medium ...... 83 scenarios
+      Hard ........ 22 scenarios
+      Kubernetes Playgrounds ... 2 entries (Free 20 min; Pro 60 min)
+    Total: 138 scenarios (33 + 83 + 22) plus 2 playground entries.
+  - Type labels: Fix (repair something broken), Do (complete a task), Hack (security/CTF), Playground, plus access badges: Pro, Business, No Registration (try without an account), New.
+  - Time limits range from 10 to 60 minutes (shown per scenario).
+  - Naming convention: scenarios are named after cities/places (e.g. "Saint John", "Tokyo", "London") followed by a description.
+  Full list is reproduced in the content file.
+
+----------------------------------------------------------------------
+4.3 LABS  (/labs/)
+----------------------------------------------------------------------
+Title: Technology Labs | SadServers Hands-On Practice. H1: "Learn by Technology". Eyebrow: "SADSERVERS LABS".
+Intro: "Guides, troubleshooting tips, cheatsheets, and hands-on scenarios to level-up or start your DevOps / SRE career."
+Structure: H2 category headings, each with H3 technology cards (name + one-line descriptor). 10 categories, 43 cards:
+  Linux & Bash (7), Web Servers (7), Databases (7), Data Processing (1), Docker (2), Kubernetes (2), CI/CD (3), Infrastructure As Code (2), Observability (2), Tooling / Applications (6)
+Each card links to a technology page (guide + cheatsheet + scenarios) not reviewed here.
+
+----------------------------------------------------------------------
+4.4 TROUBLESHOOTING  (/troubleshooting)
+----------------------------------------------------------------------
+Title: Troubleshooting Guides | SadServers Hands-On Practice. Eyebrow: "SADSERVERS TROUBLESHOOTING".
+H1: "Incident Response and Troubleshooting Tips".
+Structure:
+  1. Incident steps (6-step ordered list): Verify, Triage, Communicate/escalate, Mitigate, Troubleshoot, Postmortem
+  2. General debugging techniques (8 bullet tips)
+  3. "Troubleshooting Guides by Technology": same technology grid as Labs, with descriptors, 9 categories. Differences from Labs: no separate Observability group and no ELK Stack card; Prometheus appears under Tooling / Applications.
+
+----------------------------------------------------------------------
+4.5 FOR INDIVIDUALS  (/solutions/individual)
+----------------------------------------------------------------------
+Title: Master Linux & DevOps Through Hands-On Practice | SadServers for Individuals. Eyebrow: "SADSERVERS FOR INDIVIDUALS".
+Structure:
+  1. Hero + CTA "Start your first scenario"
+  2. "Why Hands-On Practice Changes Everything" - intro paragraph + 6 benefit cards with emoji icons
+  3. "Your Path to Mastery" - intro + 8 numbered steps, each with difficulty badges (EASY/MEDIUM/HARD) and a short blurb
+  4. Advice callouts: "You don't need to follow a perfectly linear path" and "Using Clues"
+  5. "Explore by Technology" - tag cloud of about 40 technology tags linking to filtered scenario lists
+  6. "You've Got This" - motivational closing text + repeat CTA
+
+----------------------------------------------------------------------
+4.6 FOR BUSINESSES  (/solutions/business)
+----------------------------------------------------------------------
+Title: Linux & DevOps Assessment Platform for Technical Hiring & Training | SadServers for Business. Eyebrow: "SADSERVERS FOR BUSINESSES".
+Structure:
+  1. Hero + buttons "Explore Use Cases", "View Pricing"
+  2. "The Assessment Platform Built for Technical Teams" - 6 feature cards
+  3. "How It Works" - 9-step process list
+  4. "Three Ways Organizations Use SadServers" - three numbered use-case blocks:
+       01 Technical Interview Assessment (benefits list, hiring-impact note, 6-step flow)
+       02 Internal Training & Team Evaluation (use cases, ROI note, 4 event ideas)
+       03 AI Agent Evaluation & Training (benefits list, SREBattle.com link, AI integration checklist)
+  5. "Flexible Pricing for Every Organization" - Monthly / Annual / Pay-per-use + "See Pricing Details"
+  6. Closing CTA: "Ready to Assess Real Technical Skills?" - buttons "Contact Sales", "See Pricing Details"; email info@sadservers.com
+  7. FAQ accordion (7 questions)
+
+----------------------------------------------------------------------
+4.7 PRICING  (/pricing)
+----------------------------------------------------------------------
+Title: SadServers: DevOps & SRE Labs | Job Interview Prep & Assessment. H1: "Choose a plan that works for you". Subline: "Cancel Subscriptions At Any Time".
+Structure: toggle between "Individual plans" and "Business plans".
+  Individual tab: three plan cards (Hobbyist, Pro, Pro+) + note about gifting Pro+ + terms/privacy links.
+  Business tab: three cards (Business Subscription, Business Pay-Per-Use, Custom) + terms/privacy links.
+  Each paid card has Buy buttons and a "Plan Details" link to the docs.
+Plans:
+  Hobbyist ............ Free
+  Pro ................. $9/month, or $72/year (33% off)
+  Pro+ ................ $11/month, $88/year (33% off), or $249 lifetime
+  Business Subscription $245/month, or $1,470/year (50% off); 7-day free trial (Pro+ users only)
+  Business Pay-Per-Use  50 interviews for $600, 25 interviews for $400
+  Custom .............. "Let's Talk" (contact for pricing)
+
+----------------------------------------------------------------------
+4.8 GIFT  (/gifts/) and REDEEM (/gifts/redeem/)
+----------------------------------------------------------------------
+Gift page: headline "Gift SadServers - Professional Development and Training for your Team or Friends".
+  Sections: intro; "What's included in a Pro+ Account" (list); "Choose a plan" (radio options: 3 months $33, 6 months $66, 1 year $110, 2 years $199); form (Recipient Emails, Message optional, send-with-info vs anonymous, Signature optional, Contact Email optional); button "Continue to Checkout".
+Redeem page: title "Redeem Your SadServers Pro Gift"; feature list; message "Please log in or register to redeem your gift."
+
+----------------------------------------------------------------------
+4.9 RANKING  (/ranking)
+----------------------------------------------------------------------
+Header: "SadServers Ranking". Note: "This is a Pro Account feature." Scoring: Easy = 1 point, Medium = 2 points, Hard = 5 points.
+Table: "Top 20 Users" with columns # | User Alias | Points. Top entry 299 points, 20th entry 174 points.
+
+----------------------------------------------------------------------
+4.10 FAQ  (/faq)
+----------------------------------------------------------------------
+Title: FAQ | SadServers. Eyebrow "HELP CENTER". H1 "Frequently Asked Questions".
+Structure: sticky list of 16 section links, then 16 sections, each with a blurb and a list of question links (answers sit behind the question links; 140 questions total):
+  Getting Started (12 Qs), Scenarios & Labs (20),Scenario Environment (8), Learning/Progress/Scoring (11), Certificates & Badges (8), Pro/Pro+/Business Accounts (11), Gift Accounts (2), Job Interviews (13), Organizations & Teams (12), Subscription & Billing (10), Technical Issues (8), API & CLI/TUI (7), Security & Privacy (4), Content & IP (5), Support (3), Other (6)
+
+----------------------------------------------------------------------
+4.11 ABOUT  (/about)
+----------------------------------------------------------------------
+Title: About SadServers | Linux, DevOps & SRE Labs.
+Sections: About SadServers (company facts) | Mission ("Do. Learn. Assess." + two mission bullets) | Investors | Contact (email, phone, LinkedIn).
+
+----------------------------------------------------------------------
+4.12 LOGIN (/accounts/login) and SIGN UP (/accounts/signup)
+----------------------------------------------------------------------
+Login: heading "Login"; invitation to create an account; privacy reassurance; form (Email*, Password*, Login button); "Forgot your password? Reset by email".
+Sign Up: heading "Create an Account"; value-proposition text; form (Email*, Newsletter checkbox "Sign up for new scenarios announcements", Password*, Password again*, Sign Up button); link to login.
+Dashboard (/accounts/dashboard) redirects to login when signed out. According to the site text it tracks completed scenarios and times, and manages running or saved servers.
+
+----------------------------------------------------------------------
+4.13 DOCS HUB (docs.sadservers.com/docs/)
+----------------------------------------------------------------------
+Plain article page with a list of 14 documentation sections (see sitemap). Left sidebar documentation layout.
+
+----------------------------------------------------------------------
+4.14 DOCS: BUSINESS ACCOUNTS (docs.sadservers.com/docs/business/)
+----------------------------------------------------------------------
+Sections: Purchase a Business Plan | Benefits (For Users, For Hiring, For Events, Other Benefits) | Subscriptions & Cancellations | Onboarding (and further sub-sections linked: Creating Interviews, Adding Candidates, Interview Time, Interview Results).
+
+----------------------------------------------------------------------
+4.15 BLOG (docs.sadservers.com/blog/)
+----------------------------------------------------------------------
+Chronological list, newest first. Each entry: title, excerpt, "Read more", date. 14 posts, Dec 2023 to Nov 2026 (titles and dates are in the content file).
+Many posts carry the line "Brought to you by SadServers - Hands-On Linux & DevOps; Real Challenges. Real Infra. Real Skills." and some state "No AI was used".
+
+======================================================================
+5. KEY NUMBERS AND FACTS
+======================================================================
+  - Scenarios listed: 33 Easy, 83 Medium, 22 Hard, 2 K8s playgrounds
+  - Pro plan page says "over 125 scenarios"; the 2025 year-in-review blog says "close to 100" challenges at end of 2025
+  - Labs: 10 categories, 43 technology cards
+  - Users: "tens of thousands"; "more than 3/4 million" challenges run
+  - Advent of Sysadmin (Dec 2025): 12 days, about 10,000 participants
+  - Access levels on scenarios: No Registration, free (registered), Pro, Business
+  - Pro+ extras: direct SSH, command history logging (kept 30 days), invitations to scenarios, CLI/TUI
+  - AI evaluation customers named: Metr, the AI Security Institute; benchmark site SREBattle.com
+  - Hosting uses AWS Spot instances (per blog)
+  - Payments via Stripe
+
+======================================================================
+6. OBSERVATIONS ON THE SITE'S DESIGN
+======================================================================
+  - Consistent global header/footer; each page has a unique <title> and an eyebrow label in caps for marketing pages.
+  - Marketing pages (Individuals, Business) use card grids, numbered steps, and a closing CTA.
+  - Functional pages (Scenarios, Ranking) are table based.
+  - Several pages share the generic home <title> (Scenarios, Gift, Redeem, Sign Up), which is weak for SEO.
+  - The Scenarios page shows a "new interface (beta)" for registered users, so signed-in users may see a different layout.
+
