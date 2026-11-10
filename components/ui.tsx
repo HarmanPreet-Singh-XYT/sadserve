@@ -41,14 +41,7 @@ export function PageHero({
 }) {
   const center = align === "center";
   return (
-    <section className="relative pb-14 pt-6 md:pb-20">
-      <div className="wrap">
-        <div className="flex justify-between border-b border-ink/25 pb-3 font-mono text-[0.68rem] uppercase tracking-[0.16em] text-ink-3">
-          <span>SADSERVERS(1)</span>
-          <span className="hidden sm:inline">Linux &amp; DevOps practice manual</span>
-          <span>SADSERVERS(1)</span>
-        </div>
-      </div>
+    <section className="relative pb-14 pt-4 md:pb-20">
       <div className={`wrap relative pt-12 md:pt-16 ${center ? "text-center" : ""}`}>
         <div className="hero-in eyebrow mb-6" style={{ "--d": "0ms" } as never}>
           {eyebrow}
@@ -96,7 +89,7 @@ export function CtaBand({
   return (
     <section className="wrap mt-28">
       <Reveal>
-        <div className="ink-scope relative overflow-hidden rounded-md px-6 py-16 text-center md:px-16 md:py-24" style={{ boxShadow: "10px 10px 0 #e8401c" }}>
+        <div className="ink-scope relative overflow-hidden rounded-md px-6 py-16 text-center md:px-16 md:py-24" style={{ boxShadow: "10px 10px 0 #2d5bff" }}>
           <h2 className="h2 relative mx-auto max-w-3xl">{title}</h2>
           {lead && <p className="lead relative mx-auto mt-5 max-w-xl">{lead}</p>}
           <div className="relative mt-9 flex flex-wrap justify-center gap-3">

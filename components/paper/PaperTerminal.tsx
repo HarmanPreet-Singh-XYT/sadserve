@@ -19,7 +19,7 @@ const SCRIPT: Step[] = [
 ];
 
 const TOTAL = 15 * 60;
-const tone: Record<Tone, string> = { err: "text-[#ff8a6b]", ok: "text-phosphor", dim: "text-[#7d7766]" };
+const tone: Record<Tone, string> = { err: "text-[#ff8a6b]", ok: "text-phosphor", dim: "text-[#7b849a]" };
 const fmt = (s: number) => `${String(Math.floor(s / 60)).padStart(2, "0")}:${String(s % 60).padStart(2, "0")}`;
 
 export function PaperTerminal() {
@@ -88,14 +88,14 @@ export function PaperTerminal() {
   const prompt = (
     <span className="select-none">
       <span className="text-phosphor">admin@cape-town</span>
-      <span className="text-[#7d7766]">:</span>
+      <span className="text-[#7b849a]">:</span>
       <span className="text-[#8db4e8]">~</span>
-      <span className="text-[#7d7766]">$ </span>
+      <span className="text-[#7b849a]">$ </span>
     </span>
   );
 
   return (
-    <div className="overflow-hidden rounded-xl bg-[#14120e] font-mono text-[0.78rem] leading-[1.75] text-[#e9e4d6] shadow-[6px_6px_0_#16140f] ring-1 ring-ink sm:text-[0.82rem]" role="img" aria-label="Terminal session: diagnosing and fixing a broken Nginx config, then passing the check">
+    <div className="overflow-hidden rounded-xl bg-[#0b1020] font-mono text-[0.78rem] leading-[1.75] text-[#e6eaf2] shadow-[0_1px_2px_rgba(11,16,32,0.06),0_24px_48px_-16px_rgba(11,16,32,0.22)] ring-1 ring-ink sm:text-[0.82rem]" role="img" aria-label="Terminal session: diagnosing and fixing a broken Nginx config, then passing the check">
       <div ref={body} className="h-[330px] overflow-hidden whitespace-pre-wrap break-words px-5 pb-3 pt-5">
         {lines.map((l) =>
           l.k === "cmd" ? (
@@ -124,12 +124,12 @@ export function PaperTerminal() {
         )}
         {solved && (
           <div className="mt-2 text-phosphor">
-            ✔ Check My Solution: PASSED <span className="text-[#7d7766]">· 03:41 · 0 clues used</span>
+            ✔ Check My Solution: PASSED <span className="text-[#7b849a]">· 03:41 · 0 clues used</span>
           </div>
         )}
       </div>
       {/* tmux status line */}
-      <div className="flex items-center justify-between gap-4 bg-phosphor px-3 py-1 text-[0.72rem] font-medium text-[#14120e]">
+      <div className="flex items-center justify-between gap-4 bg-phosphor px-3 py-1 text-[0.72rem] font-medium text-[#0b1020]">
         <span className="truncate">[sad] 0:bash*</span>
         <span className="shrink-0">
           &quot;cape-town&quot; · medium · <span className={left < 120 ? "text-[#a3200a]" : ""}>{fmt(left)}</span>

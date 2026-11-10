@@ -15,7 +15,7 @@ export default function LabsPage() {
   return (
     <>
       <PageHero
-        eyebrow="SadServers Labs"
+        eyebrow="SadServe Labs"
         title={
           <>
             Learn by <span className="serif ember-text">technology</span>.

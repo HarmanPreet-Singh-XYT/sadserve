@@ -2,9 +2,9 @@
 
 import { useEffect, useRef, useState } from "react";
 
-const INK = "#16140f";
-const PAPER = "#f7f3ea";
-const UNIT = "#ece5d4";
+const INK = "#0b1020";
+const PAPER = "#fafbfd";
+const UNIT = "#eef1f6";
 
 /**
  * The mascot: SAD-01, a server rack having a bad day.
@@ -93,8 +93,8 @@ export function SadServer({
           <>
             <path d="M190 182 Q208 160 226 182" fill="none" stroke={INK} strokeWidth="6" strokeLinecap="round" />
             <path d="M280 182 Q298 160 316 182" fill="none" stroke={INK} strokeWidth="6" strokeLinecap="round" />
-            <circle cx="186" cy="204" r="9" fill="#e8401c" opacity=".28" />
-            <circle cx="320" cy="204" r="9" fill="#e8401c" opacity=".28" />
+            <circle cx="186" cy="204" r="9" fill="#2d5bff" opacity=".28" />
+            <circle cx="320" cy="204" r="9" fill="#2d5bff" opacity=".28" />
             <path d="M222 206 Q253 234 284 206" fill="none" stroke={INK} strokeWidth="5" strokeLinecap="round" />
           </>
         ) : (
@@ -129,7 +129,7 @@ export function SadServer({
             <g key={i}>
               <rect x={x} y="278" width="42" height="58" rx="5" fill={PAPER} stroke={INK} strokeWidth="3" />
               <line x1={x + 9} y1="318" x2={x + 33} y2="318" stroke={INK} strokeWidth="3" strokeLinecap="round" />
-              <circle cx={x + 10} cy="290" r="4.5" fill={bad ? "#e8401c" : "#3fae5a"} stroke={INK} strokeWidth="2" className={bad ? "ss-led" : undefined} />
+              <circle cx={x + 10} cy="290" r="4.5" fill={bad ? "#2d5bff" : "#3fae5a"} stroke={INK} strokeWidth="2" className={bad ? "ss-led" : undefined} />
             </g>
           );
         })}
@@ -140,7 +140,7 @@ export function SadServer({
           <line key={i} x1="160" y1={384 + i * 12} x2="296" y2={384 + i * 12} stroke={INK} strokeWidth="3" strokeLinecap="round" />
         ))}
         <rect x="312" y="382" width="42" height="26" rx="4" fill={happy ? "#3fae5a" : INK} />
-        <text x="333" y="400" textAnchor="middle" fontSize="12" fontFamily="var(--font-geist-mono), monospace" fill={happy ? INK : "#efeadf"} fontWeight="600">
+        <text x="333" y="400" textAnchor="middle" fontSize="12" fontFamily="var(--font-geist-mono), monospace" fill={happy ? INK : "#ffffff"} fontWeight="600">
           {happy ? "200" : "5xx"}
         </text>
         <circle cx="333" cy="434" r="9" fill={PAPER} stroke={INK} strokeWidth="3" />
@@ -161,7 +161,7 @@ export function SadServer({
             <rect x="32" y="-9" width="16" height="5" rx="1" fill={INK} />
             <rect x="32" y="4" width="16" height="5" rx="1" fill={INK} />
           </g>
-          <path className="ss-spark" d="M512 498 l7 -11 l4 8 l8 -13" fill="none" stroke="#e8401c" strokeWidth="3.5" strokeLinecap="round" strokeLinejoin="round" />
+          <path className="ss-spark" d="M512 498 l7 -11 l4 8 l8 -13" fill="none" stroke="#2d5bff" strokeWidth="3.5" strokeLinecap="round" strokeLinejoin="round" />
         </>
       )}
     </svg>
@@ -182,7 +182,7 @@ export function SadServer({
       </button>
       <span
         aria-live="polite"
-        className={`font-hand pointer-events-none absolute left-1/2 top-[3%] -translate-x-1/2 -rotate-2 whitespace-nowrap rounded-xl bg-paper px-4 py-1.5 text-[1.5rem] leading-none text-ink ring-1 ring-ink transition-[opacity,transform] duration-300 [transition-timing-function:cubic-bezier(0.23,1,0.32,1)] ${poked ? "translate-y-0 opacity-100" : "translate-y-2 opacity-0"}`}
+        className={`font-mono text-[0.8rem] pointer-events-none absolute left-1/2 top-[3%] -translate-x-1/2 -rotate-2 whitespace-nowrap rounded-xl bg-paper px-4 py-1.5 leading-none text-ink ring-1 ring-ink transition-[opacity,transform] duration-300 [transition-timing-function:cubic-bezier(0.23,1,0.32,1)] ${poked ? "translate-y-0 opacity-100" : "translate-y-2 opacity-0"}`}
       >
         {poked ? "turned it off and on again. fixed." : ""}
       </span>
@@ -194,11 +194,11 @@ export function SadServer({
 export function MarkInk({ size = 26 }: { size?: number }) {
   return (
     <svg width={size} height={size} viewBox="0 0 32 32" fill="none" aria-hidden>
-      <rect x="5" y="4" width="22" height="24" rx="5" fill="#16140f" />
-      <circle cx="12" cy="14" r="2.2" fill="#efeadf" />
-      <circle cx="20" cy="14" r="2.2" fill="#efeadf" />
-      <path d="M11.5 22c1.6-2 7.4-2 9 0" stroke="#efeadf" strokeWidth="1.8" strokeLinecap="round" />
-      <circle cx="24.5" cy="6.5" r="3" fill="#e8401c" stroke="#efeadf" strokeWidth="1.5" />
+      <rect x="5" y="4" width="22" height="24" rx="5" fill="#0b1020" />
+      <circle cx="12" cy="14" r="2.2" fill="#ffffff" />
+      <circle cx="20" cy="14" r="2.2" fill="#ffffff" />
+      <path d="M11.5 22c1.6-2 7.4-2 9 0" stroke="#ffffff" strokeWidth="1.8" strokeLinecap="round" />
+      <circle cx="24.5" cy="6.5" r="3" fill="#2d5bff" stroke="#ffffff" strokeWidth="1.5" />
     </svg>
   );
 }

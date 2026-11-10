@@ -8,7 +8,7 @@ import { Card } from "@/components/Card";
 export const metadata: Metadata = {
   title: "Master Linux & DevOps Through Hands-On Practice",
   description:
-    "Build practical skills through hands-on troubleshooting scenarios that mirror real production challenges. SadServers for individuals.",
+    "Build practical skills through hands-on troubleshooting scenarios that mirror real production challenges. SadServe for individuals.",
 };
 
 const WHY = [
@@ -39,7 +39,7 @@ export default function IndividualPage() {
   return (
     <>
       <PageHero
-        eyebrow="SadServers for Individuals"
+        eyebrow="SadServe for Individuals"
         title={
           <>
             Master Linux &amp; DevOps through <span className="serif ember-text">real-world</span> practice.
@@ -195,7 +195,7 @@ export default function IndividualPage() {
             "Don't compare your progress to others. Some people have been doing this for many years. Some started yesterday. The only person you need to be better than is the person you were last week. Keep showing up.",
           ].map((t, i) => (
             <Reveal key={i} delay={(i % 2) * 80}>
-              <p className="border-l-2 border-accent/40 pl-5 text-[1.1rem] leading-[1.7] text-muted">{t}</p>
+              <p className="border-l border-accent/40 pl-5 text-[1.1rem] leading-[1.7] text-muted">{t}</p>
             </Reveal>
           ))}
         </div>

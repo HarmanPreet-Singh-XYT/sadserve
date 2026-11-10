@@ -6,9 +6,9 @@ import { Card } from "@/components/Card";
 import { Counter } from "@/components/Counter";
 
 export const metadata: Metadata = {
-  title: "About SadServers: Linux, DevOps & SRE Labs",
+  title: "About SadServe: Linux, DevOps & SRE Labs",
   description:
-    "SadServers Inc. is incorporated federally in Canada and based in Waterloo, Ontario. Bootstrapped, profitable and supported by The Accelerator Centre.",
+    "SadServe Inc. is incorporated federally in Canada and based in Waterloo, Ontario. Bootstrapped, profitable and supported by The Accelerator Centre.",
 };
 
 export default function AboutPage() {
@@ -41,14 +41,14 @@ export default function AboutPage() {
         <Reveal className="mt-20 grid gap-10 md:grid-cols-[0.8fr_1.2fr]">
           <h2 className="h2">The company</h2>
           <div className="prose-sad space-y-5 text-[1.05rem]">
-            <p>SadServers Inc. is a company incorporated federally in Canada and based in Waterloo, Ontario.</p>
+            <p>SadServe Inc. is a company incorporated federally in Canada and based in Waterloo, Ontario.</p>
             <p>
               The service was created in 2022 and since then it has helped tens of thousands of users and powered more
               than 3/4 million Linux &amp; DevOps challenges across as many servers.
             </p>
             <p>
-              Companies rely on SadServers to train their teams and evaluate job candidates. Organizations such as
-              Metr, the AI Security Institute and SRE-focused AI companies trust SadServers for AI evaluations.
+              Companies rely on SadServe to train their teams and evaluate job candidates. Organizations such as
+              Metr, the AI Security Institute and SRE-focused AI companies trust SadServe for AI evaluations.
             </p>
             <p>We are proud to have the support of The Accelerator Centre.</p>
           </div>
@@ -78,12 +78,12 @@ export default function AboutPage() {
           <h2 className="h2">Investors</h2>
           <div className="prose-sad space-y-5 text-[1.05rem]">
             <p>
-              SadServers operates as a <strong>fully bootstrapped, profitable</strong> business with no outside
+              SadServe operates as a <strong>fully bootstrapped, profitable</strong> business with no outside
               funding. We&rsquo;re not looking for investors currently, though we&rsquo;re always open to exploring partnership
               opportunities.
             </p>
             <p>
-              Having previously acquired assets from companies in similar spaces, SadServers is open to further
+              Having previously acquired assets from companies in similar spaces, SadServe is open to further
               expansion through strategic acquisitions or by funding promising companies and personal projects in our
               space.
             </p>
@@ -98,7 +98,7 @@ export default function AboutPage() {
               {[
                 [Mail, "Email", "info@sadservers.com", "mailto:info@sadservers.com"],
                 [Phone, "Phone", "+1 (226) 336-3356", "tel:+12263363356"],
-                [ArrowUpRight, "LinkedIn", "SadServers", "https://linkedin.com/company/sadservers"],
+                [ArrowUpRight, "LinkedIn", "SadServe", "https://linkedin.com/company/sadservers"],
               ].map(([I, l, v, h]) => {
                 const Icon = I as typeof Mail;
                 return (

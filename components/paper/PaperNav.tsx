@@ -39,9 +39,9 @@ export function PaperNav() {
       </a>
       <header className="sticky top-0 z-50 border-b border-ink/15 bg-paper/90 backdrop-blur">
         <div className="mx-auto flex h-16 max-w-[1280px] items-center justify-between px-5 md:px-10">
-          <Link href="/" className="flex items-center gap-2.5" aria-label="SadServers home">
+          <Link href="/" className="flex items-center gap-2.5" aria-label="SadServe home">
             <MarkInk />
-            <span className="font-display text-[1.35rem] font-semibold tracking-[-0.02em]">sadservers</span>
+            <span className="font-display text-[1.35rem] font-semibold tracking-[-0.02em]">sadserve</span>
           </Link>
           <nav aria-label="Primary" className="hidden items-center gap-7 text-[0.9rem] lg:flex">
             {LINKS.map(([l, h]) => (

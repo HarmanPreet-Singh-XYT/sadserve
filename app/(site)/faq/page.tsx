@@ -5,7 +5,7 @@ import { FaqBrowser } from "@/components/FaqBrowser";
 export const metadata: Metadata = {
   title: "FAQ: Frequently Asked Questions",
   description:
-    "Answers to frequently asked questions about SadServers scenarios, Linux troubleshooting labs, subscriptions, organizations, interviews, accounts, and platform features.",
+    "Answers to frequently asked questions about SadServe scenarios, Linux troubleshooting labs, subscriptions, organizations, interviews, accounts, and platform features.",
 };
 
 export default function FaqPage() {
@@ -18,7 +18,7 @@ export default function FaqPage() {
             Frequently asked <span className="serif ember-text">questions</span>.
           </>
         }
-        lead="Answers about SadServers scenarios, Linux troubleshooting labs, subscriptions, organizations, interviews, accounts, and platform features."
+        lead="Answers about SadServe scenarios, Linux troubleshooting labs, subscriptions, organizations, interviews, accounts, and platform features."
       />
       <div className="wrap">
         <FaqBrowser />

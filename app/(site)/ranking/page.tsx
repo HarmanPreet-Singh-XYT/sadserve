@@ -7,8 +7,8 @@ import { Counter } from "@/components/Counter";
 import { RANKING } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "SadServers Ranking: Top Engineers",
-  description: "The Top 20 Linux, DevOps & SRE engineers on SadServers. Easy = 1 point, Medium = 2 points, Hard = 5 points.",
+  title: "SadServe Ranking: Top Engineers",
+  description: "The Top 20 Linux, DevOps & SRE engineers on SadServe. Easy = 1 point, Medium = 2 points, Hard = 5 points.",
 };
 
 const MAX = RANKING[0][1];
@@ -52,7 +52,7 @@ export default function RankingPage() {
         eyebrow="Leaderboard"
         title={
           <>
-            SadServers <span className="serif ember-text">Ranking</span>.
+            SadServe <span className="serif ember-text">Ranking</span>.
           </>
         }
         lead="The Top 20 users, by points. Easy = 1 point, Medium = 2 points, Hard = 5 points."

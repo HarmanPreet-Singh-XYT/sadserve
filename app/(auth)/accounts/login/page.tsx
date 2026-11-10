@@ -21,7 +21,7 @@ export default function LoginPage() {
           <Link href="/accounts/signup" className="text-fg underline decoration-line-2 underline-offset-4 hover:decoration-accent">
             Create one with just an email address
           </Link>
-          . With a SadServers account you can keep track of your progress.
+          . With a SadServe account you can keep track of your progress.
         </>
       }
     >

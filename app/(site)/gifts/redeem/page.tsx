@@ -5,7 +5,7 @@ import { CheckList } from "@/components/ui";
 import { PRO_PLUS } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Redeem Your SadServers Pro Gift",
+  title: "Redeem Your SadServe Pro Gift",
 };
 
 export default function RedeemPage() {
@@ -21,7 +21,7 @@ export default function RedeemPage() {
               <Gift size={26} />
             </span>
             <h1 className="mt-8 text-4xl font-semibold tracking-[-0.04em]">
-              Redeem your SadServers <span className="serif ember-text">Pro</span> gift.
+              Redeem your SadServe <span className="serif ember-text">Pro</span> gift.
             </h1>
             <CheckList className="mt-8" items={PRO_PLUS} />
             <p className="mt-8 rounded-xl bg-white/[0.04] p-4 text-[0.92rem] text-muted ring-1 ring-line">

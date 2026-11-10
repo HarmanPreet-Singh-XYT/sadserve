@@ -43,7 +43,7 @@ export default function TroubleshootingPage() {
   return (
     <>
       <PageHero
-        eyebrow="SadServers Troubleshooting"
+        eyebrow="SadServe Troubleshooting"
         title={
           <>
             Incident response and <span className="serif ember-text">troubleshooting</span> tips.

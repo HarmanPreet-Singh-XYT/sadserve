@@ -73,7 +73,7 @@ const FAQS = [
   { q: "Can you create custom scenarios for our specific technology stack?", a: "Yes. We'll build scenarios tailored to your infrastructure, tools and challenges, completely private to your organization. Contact us for custom packages." },
   { q: "How does pay-per-use pricing work?", a: "Buy a package of interviews (25 for $400 or 50 for $600) and use them when you need them. It includes all Business Subscription features, ideal for seasonal hiring or short-term training." },
   { q: "Is there an API for programmatic access?", a: "Yes. Business accounts include API access to run scenario VMs, handy for CI, training pipelines and AI agent benchmarks." },
-  { q: "Can candidates or users try the scenarios on their own time?", a: "Yes. Each candidate gets a one-time magic link they can open at interview time or asynchronously. No SadServers account is needed." },
+  { q: "Can candidates or users try the scenarios on their own time?", a: "Yes. Each candidate gets a one-time magic link they can open at interview time or asynchronously. No SadServe account is needed." },
 ];
 
 function Pairs({ items }: { items: string[][] }) {
@@ -105,7 +105,7 @@ export default function BusinessPage() {
   return (
     <>
       <PageHero
-        eyebrow="SadServers for Businesses"
+        eyebrow="SadServe for Businesses"
         title={
           <>
             Evaluate engineers with <span className="serif ember-text">real-world</span> Linux &amp; DevOps scenarios.
@@ -175,7 +175,7 @@ export default function BusinessPage() {
       {/* use cases */}
       <section id="use-cases" className="wrap scroll-mt-24 py-16">
         <SectionHead
-          eyebrow="Three ways organizations use SadServers"
+          eyebrow="Three ways organizations use SadServe"
           title={<>Interviews. Training. <span className="serif ember-text">Agents.</span></>}
           lead="From technical interviews to internal training to AI agent development, discover how teams across industries use practical assessment to build stronger technical capabilities."
         />
@@ -253,7 +253,7 @@ export default function BusinessPage() {
             <Reveal className="mt-10"><Pairs items={AI} /></Reveal>
             <Reveal className="mt-10">
               <a href="https://srebattle.com" target="_blank" rel="noreferrer" className="group flex items-center justify-between gap-4 rounded-2xl bg-info/[0.06] p-6 ring-1 ring-info/20 transition-colors hover:bg-info/10">
-                <p className="text-[0.95rem] text-muted"><span className="font-medium text-fg">See it in action:</span> we benchmark AI models on SadServers scenarios at SREBattle.com.</p>
+                <p className="text-[0.95rem] text-muted"><span className="font-medium text-fg">See it in action:</span> we benchmark AI models on SadServe scenarios at SREBattle.com.</p>
                 <ArrowUpRight size={20} className="shrink-0 text-info transition-transform duration-200 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
               </a>
             </Reveal>

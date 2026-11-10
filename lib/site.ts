@@ -106,7 +106,7 @@ export const BLOG = [
     date: "Nov 7, 2026",
     tag: "Comparison",
     excerpt:
-      "A short look at some of the best hands-on Linux and DevOps platforms using sandboxes, each good for a different kind of practice: OverTheWire, KodeKloud, SadServers and iximiuz Labs.",
+      "A short look at some of the best hands-on Linux and DevOps platforms using sandboxes, each good for a different kind of practice: OverTheWire, KodeKloud, SadServe and iximiuz Labs.",
   },
   {
     title: "How to write a recruiter email engineers will actually answer",
@@ -148,7 +148,7 @@ export const BLOG = [
     date: "Dec 22, 2025",
     tag: "Company",
     excerpt:
-      "Third year of SadServers. Scenarios almost doubled, users more than doubled, uptime close to 100%. Plus Advent of Sysadmin: 12 days and about 10,000 participants.",
+      "Third year of SadServe. Scenarios almost doubled, users more than doubled, uptime close to 100%. Plus Advent of Sysadmin: 12 days and about 10,000 participants.",
   },
   {
     title: "Destroy and Deploy: the Joys of Immutability",
@@ -205,10 +205,10 @@ export const FAQ: { section: string; intro: string; qs: string[] }[] = [
   {
     section: "Getting Started",
     intro:
-      "New to SadServers? Learn how hands-on Linux and DevOps practice works on real VMs, what you need to begin, and how to create a free account.",
+      "New to SadServe? Learn how hands-on Linux and DevOps practice works on real VMs, what you need to begin, and how to create a free account.",
     qs: [
-      "What is SadServers?", "What is SadServers' philosophy?", "Who is it for?", "How does it work?",
-      "Where do I learn more about SadServers' history or how it works technically?", "Do I need to install anything?",
+      "What is SadServe?", "What is SadServe' philosophy?", "Who is it for?", "How does it work?",
+      "Where do I learn more about SadServe' history or how it works technically?", "Do I need to install anything?",
       "What Linux knowledge is expected?", "Can I try it for free?", "How do I create an account?",
       "Why do I want to create an account?", "Can I sign in with Google or GitHub?", "I forgot my password",
     ],
@@ -231,7 +231,7 @@ export const FAQ: { section: string; intro: string; qs: string[] }[] = [
   },
   {
     section: "Scenario Environment",
-    intro: "Every SadServers session runs on a dedicated cloud VM. You are free to practice and play in these sandboxes.",
+    intro: "Every SadServe session runs on a dedicated cloud VM. You are free to practice and play in these sandboxes.",
     qs: [
       "What operating system or Linux distribution is used?", "Do I have root access?",
       "What software is pre-installed?", "Are all scenarios on a single VM?", "Can I break things permanently?",
@@ -276,16 +276,16 @@ export const FAQ: { section: string; intro: string; qs: string[] }[] = [
     section: "Gift Accounts",
     intro:
       "Someone can make a one-time purchase to give somebody else a Pro+ account. An excellent low-cost choice for companies that offer professional development or training stipends.",
-    qs: ["Can I gift SadServers to someone?", "Can my organization pay for my SadServers subscription?"],
+    qs: ["Can I gift SadServe to someone?", "Can my organization pay for my SadServe subscription?"],
   },
   {
     section: "Job Interviews",
     intro:
       "Run live or asynchronous technical interviews on real Linux VMs with automated scoring and candidate dashboards.",
     qs: [
-      "How do interview sessions work?", "What types of interviews does SadServers support?",
+      "How do interview sessions work?", "What types of interviews does SadServe support?",
       "How do candidates sign in?", "How do I invite candidates?",
-      "Do candidates need to create a SadServers account before the interview?", "Can I see candidate progress?",
+      "Do candidates need to create a SadServe account before the interview?", "Can I see candidate progress?",
       "How is performance evaluated?", "Can I customize the scenario set?", "Can I customize the scenario time?",
       "Can I hide the timer in the scenarios?", "Can I hide the clues from the candidates?",
       "How long should an interview be?", "Can candidates continue later?",
@@ -299,7 +299,7 @@ export const FAQ: { section: string; intro: string; qs: string[] }[] = [
       "What is an Organization?", "How do I invite team members?", "Can I transfer ownership?",
       "How are seats counted?", "Can members access all scenarios?", "Do you offer enterprise plans?",
       "Do you support SSO?", "Can you provide custom scenarios?", "Can you deploy on-premises?",
-      "Can SadServers be used to evaluate AI agents?", "Do you offer academic discounts?",
+      "Can SadServe be used to evaluate AI agents?", "Do you offer academic discounts?",
       "Where is customer data stored?",
     ],
   },
@@ -325,7 +325,7 @@ export const FAQ: { section: string; intro: string; qs: string[] }[] = [
   {
     section: "API & CLI/TUI",
     intro:
-      "Automate scenario VMs or practice from your own terminal with the SadServers REST API and beta sads CLI.",
+      "Automate scenario VMs or practice from your own terminal with the SadServe REST API and beta sads CLI.",
     qs: [
       "Is there an API?", "How does API authentication work?", "What can I do with the API?",
       "What is the CLI/TUI?", "Who can use the CLI/TUI?", "How do I install and use the CLI/TUI?",
@@ -341,11 +341,11 @@ export const FAQ: { section: string; intro: string; qs: string[] }[] = [
   {
     section: "Content & IP",
     intro:
-      "SadServers scenarios, labs, and branding are proprietary. What you can share or cite, and what requires permission.",
+      "SadServe scenarios, labs, and branding are proprietary. What you can share or cite, and what requires permission.",
     qs: [
-      "Can I share scenario solutions publicly?", "Can I use SadServers content in courses or training materials?",
-      "Who owns SadServers scenarios and content?", "Can I record or stream myself doing scenarios?",
-      "How do I request permission to use SadServers content?",
+      "Can I share scenario solutions publicly?", "Can I use SadServe content in courses or training materials?",
+      "Who owns SadServe scenarios and content?", "Can I record or stream myself doing scenarios?",
+      "How do I request permission to use SadServe content?",
     ],
   },
   {
@@ -355,10 +355,10 @@ export const FAQ: { section: string; intro: string; qs: string[] }[] = [
   },
   {
     section: "Other",
-    intro: "Platform trivia, scenario requests, testimonials, and where to follow SadServers updates.",
+    intro: "Platform trivia, scenario requests, testimonials, and where to follow SadServe updates.",
     qs: [
-      "How do I request a scenario?", "What can I do to help SadServers?", "What do people say about SadServers?",
-      "Why is the platform called SadServers?", "How often do you release new content?", "Where can I follow updates?",
+      "How do I request a scenario?", "What can I do to help SadServe?", "What do people say about SadServe?",
+      "Why is the platform called SadServe?", "How often do you release new content?", "Where can I follow updates?",
     ],
   },
 ];

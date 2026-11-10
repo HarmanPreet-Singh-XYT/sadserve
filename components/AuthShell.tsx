@@ -14,10 +14,10 @@ export function AuthShell({ title, lead, children, footer }: { title: ReactNode;
     <div className="grid min-h-screen lg:grid-cols-[minmax(0,1fr)_minmax(0,1.05fr)]">
       <div className="relative flex flex-col px-6 py-8 md:px-14">
         <div className="flex items-center justify-between">
-          <Link href="/" aria-label="SadServers home">
+          <Link href="/" aria-label="SadServe home">
             <span className="flex items-center gap-2.5">
               <MarkInk />
-              <span className="font-display text-[1.35rem] font-semibold tracking-[-0.02em]">sadservers</span>
+              <span className="font-display text-[1.35rem] font-semibold tracking-[-0.02em]">sadserve</span>
             </span>
           </Link>
           <Link href="/" className="inline-flex items-center gap-1.5 text-sm text-muted transition-colors hover:text-fg">
@@ -47,7 +47,7 @@ export function AuthShell({ title, lead, children, footer }: { title: ReactNode;
             Scenarios you&rsquo;ve completed and in what time. Manage your running or saved servers.
           </p>
 
-          <div className="float mt-12 max-w-lg rounded-md bg-[#1c1a15] p-2 ring-1 ring-line-2">
+          <div className="float mt-12 max-w-lg rounded-md bg-[#141a2e] p-2 ring-1 ring-line-2">
             <div className="flex items-center justify-between px-4 py-3">
               <span className="text-sm font-medium">Completed scenarios</span>
               <span className="chip">Sample</span>
